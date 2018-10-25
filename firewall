@@ -1,0 +1,6 @@
+[?1049h[1;41r(B[m[4l[?7h[?1h=[39;49m[39;49m[37m[40m[H[2J[37m[40m[J(B[m[39;49m[37m[40m[39;49m(B[m[39d(B[0;1m[33m[44mGetting http://yahoo.com/[K[39;49m(B[m(B[0;1m[33m[44mLooking up yahoo.com[K[39;49m(B[m(B[0;1m[33m[44mMaking HTTP connection to yahoo.com[39;49m(B[m(B[0;1m[33m[44mSending HTTP request.[K[39;49m(B[m(B[0;1m[33m[44mHTTP request sent; waiting for response.[39;49m(B[m(B[0;1m[33m[44mRead 475 bytes of data, 959 bytes/sec.[K[39;49m(B[m(B[0;1m[33m[44mHTTP/1.0 301 Moved Permanently[K[39;49m(B[m(B[0;1m[33m[44myahoo.com cookie: B=1v6dqdddkavtd&b=3&s=6d Allow? (Y/N/Always/neVer)[39;49m(B[m
+
+[41;1H[?1049l[?1l>
+
+Exiting via interrupt: 2
+

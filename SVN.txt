@@ -1,0 +1,53 @@
+svnadmin create /var/svn/mynewrepo
+
+svn copy http://192.168.1.1/svn/Appzillon/3.5.8.S1 http://192.168.1.1/svn/Appzillon/3.5.9.S1 -m "Creating a branch of /3.5.8."
+
+svn rm http://192.168.1.1/svn/Appzillon/3.5.8.S1 -m "Removing 3.5.8.S1 from Appzillon"
+
+
+
+
+
+
+    /usr/bin/perl install-module.pl DateTime
+    /usr/bin/perl install-module.pl DateTime::TimeZone
+    /usr/bin/perl install-module.pl DBI
+    /usr/bin/perl install-module.pl Template
+    /usr/bin/perl install-module.pl Email::Sender
+    /usr/bin/perl install-module.pl Email::MIME
+    /usr/bin/perl install-module.pl List::MoreUtils
+    /usr/bin/perl install-module.pl Math::Random::ISAAC
+    /usr/bin/perl install-module.pl JSON::XS
+
+
+
+             GD: /usr/bin/perl install-module.pl GD
+          Chart: /usr/bin/perl install-module.pl Chart::Lines
+    Template-GD: /usr/bin/perl install-module.pl Template::Plugin::GD::Image
+     GDTextUtil: /usr/bin/perl install-module.pl GD::Text
+        GDGraph: /usr/bin/perl install-module.pl GD::Graph
+     MIME-tools: /usr/bin/perl install-module.pl MIME::Parser
+    libwww-perl: /usr/bin/perl install-module.pl LWP::UserAgent
+       XML-Twig: /usr/bin/perl install-module.pl XML::Twig
+    PatchReader: /usr/bin/perl install-module.pl PatchReader
+      perl-ldap: /usr/bin/perl install-module.pl Net::LDAP
+    Authen-SASL: /usr/bin/perl install-module.pl Authen::SASL
+   Net-SMTP-SSL: /usr/bin/perl install-module.pl Net::SMTP::SSL
+     RadiusPerl: /usr/bin/perl install-module.pl Authen::Radius
+      SOAP-Lite: /usr/bin/perl install-module.pl SOAP::Lite
+    XMLRPC-Lite: /usr/bin/perl install-module.pl XMLRPC::Lite
+       JSON-RPC: /usr/bin/perl install-module.pl JSON::RPC
+     Test-Taint: /usr/bin/perl install-module.pl Test::Taint
+  HTML-Scrubber: /usr/bin/perl install-module.pl HTML::Scrubber
+  Encode-Detect: /usr/bin/perl install-module.pl Encode::Detect
+    Email-Reply: /usr/bin/perl install-module.pl Email::Reply
+HTML-FormatText-WithLinks: /usr/bin/perl install-module.pl HTML::FormatText::WithLinks
+    TheSchwartz: /usr/bin/perl install-module.pl TheSchwartz
+ Daemon-Generic: /usr/bin/perl install-module.pl Daemon::Generic
+       mod_perl: /usr/bin/perl install-module.pl mod_perl2
+Apache-SizeLimit: /usr/bin/perl install-module.pl Apache2::SizeLimit
+  File-MimeInfo: /usr/bin/perl install-module.pl File::MimeInfo::Magic
+     IO-stringy: /usr/bin/perl install-module.pl IO::Scalar
+Cache-Memcached: /usr/bin/perl install-module.pl Cache::Memcached
+     File-Which: /usr/bin/perl install-module.pl File::Which
+

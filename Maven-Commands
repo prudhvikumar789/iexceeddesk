@@ -1,0 +1,13 @@
+				=================================================================================
+				******************************MAVEN-Commands*************************************
+				=================================================================================
+
+Create sample mvn project :
+--------------------------------
+mvn archetype:generate -DgroupId=com.javatpoint -DartifactId=CubeGenerator -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+for WebApp:
+-----------------
+mvn archetype:generate -DgroupId=com.javatpoint -DartifactId=CubeGenerator -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+

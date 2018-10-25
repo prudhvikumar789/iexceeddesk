@@ -1,0 +1,2000 @@
+sudo gedit nginx.conf 
+ls
+cd sites-available/
+ls
+sudo gedit default 
+sudo service nginx status
+pgerp nginx
+sudo pgerp nginx
+sudo pgrep nginx
+ps -A | grep nginx
+clear
+sudo apt-get autoremove nginx
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo find / | grep nginx | sudo xargs rm -rf
+ccd
+cd
+clear
+sudo find / | grep nginx | sudo xargs rm -rf
+sudo add-apt-repository ppa:nginx/stable
+sudo apt-get update
+sudo apt-get -f install nginx
+sudo apt-get update 
+sudo apt-get autoremove nginx
+sudo apt-get autoremove
+sudo apt-get autoclean
+cd /etc/
+sudo rm -r nginx/
+ls
+clear
+sudo service nginx status
+sudo pgrep nginx
+sudo kill -9 9115
+sudo pgrep ng
+sudo kill -9 9116
+sudo kill -9 917
+sudo kill -9 9117
+sudo kill -9 9119
+sudo kill -9 9120
+clear
+sudo service nginx status
+clear
+sudo service nginx status
+sudo service nginx start
+sudo service nginx status
+cd /etc/systemd/system/
+ls
+clear
+sudo service nginx status
+cd /etc/
+sudo service nginx status
+cd
+sudo apt-get remove nginx-common nginx-full 
+sudo apt-get install nginx
+sudo service nginx status
+sudo service nginx start
+sudo service nginx status
+sudo service nginx start
+sudo service nginx status
+clear
+pgrep ngins
+pgrep nginx
+clear
+sudo service nginx status
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+ll
+clear
+cd
+sudo service nginx status
+sudo service nginx start
+clear
+sudo service nginx start
+sudo service nginx status
+sudo service nginx start
+sudo apt-get purge  nginx nginx-common  nginx-full
+sudo add-apt-repository ppa:nginx/stable
+sudo apt-get update
+sudo service nginx status
+sudo apt-get intall nginx
+sudo apt-get install nginx
+sudo rm -rf /var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_trusty-pgdg_main_binary-amd64_Packages
+sudo apt-get install nginx
+sudo rm -rf /var/lib/apt/lists/apt.postgresql.org_pub_repos_apt_dists_trusty-pgdg_main_binary-i386_Packages
+sudo apt-get install nginx
+sudo service nginx status
+sudo service apache2 status
+sudo service apache2 stop
+sudo service nginx start
+sudo gitlab-ctl stop
+sudo service nginx start
+cd /etc/nginx/
+ls
+sudo gedit nginx.conf 
+cd modules-enabled/
+ls
+cd ..
+cd sites-enabled/
+ls
+sudo gedit default 
+sudo service nginx start
+sudo service nginx restart
+sudo service nginx status
+sudo service nginx start
+sudo gedit default 
+cd
+sudo apt-get purge nginx nginx-common nginx-full 
+clear
+cd Downloads/
+sudo dpkg -i virtualbox-5.2_5.2.14-123301~Ubuntu~trusty_i386.deb 
+sudo apt-get install -f
+sudo dpkg -i virtualbox-5.2_5.2.14-123301~Ubuntu~trusty_amd64.deb 
+shutdown -h now
+sudo shutdown -h now
+sudo gitlab-ctl stop
+sudo service apache2 status
+sudo shutdown -h now
+cat ~/.bashrc
+sudo gitlab-ctl status
+sudo gitlab-ctl down
+sudo gitlab-ctl stop
+clear
+firewall
+sudo gitlab-ctl start
+ifconfig
+sudo gitlab-ctl stop
+ifconfig -a
+cd '/home/i-exceed.com/prudhvi.kumar/Lenovo.old/workspace/sampleweb' 
+ls
+git init
+git add .
+git commit -m "All"
+ls
+github-create
+mvn clean
+mvn install
+sudo mvn install
+cd /usr/share/maven
+ls
+sudo gitlab-ctl status
+sudo service apache2 status
+ls
+cd /home/i-exceed.com/amar.khan/Downloads/
+ifconfig
+scp sonarqube-7.1/ ubuntu@192.168.1.86:/tmp
+scp -R sonarqube-7.1/ ubuntu@192.168.1.86:/tmp
+sudo scp sonarqube-7.1/ ubuntu@192.168.1.86:/tmp
+pwd
+exit
+sudo gitlab-ctl stop
+sudo gitlab-ctl start
+ifconfig
+cd Desktop/
+ls
+sudo mkdir syn
+cd syn/
+ls
+git init
+sudo git init
+sudo git clone http://gitlab.iexceed.com/root/test.git
+sudo git clone http://192.168.1.41/root/test.git
+ls
+cd test
+ls
+git log --graph --decorate --oneline
+git log --graph
+git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
+git log --graph --all --pretty=format:"%h%x09%d%x20%s"
+git log --graph --pretty=format:"%h%x09%d%x20%s"
+git log --graph --all --pretty=oneline
+gr = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+git log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+git log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"git log --graph --all --simplify-by-decoration
+git log --graph --all --simplify-by-decoration
+git log --graph --oneline --branches
+git log --graph --full-history --branches --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+git log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"git log --graph --all --simplify-by-decoration
+git log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+git log --graph
+clear
+git log log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+git log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+git log --graph --color --all --pretty=format:"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
+git log --graph --pretty=format:"%x09%h | %<(10,trunc)%cd |%<(25,trunc)%d | %s" --date=short
+git log --graph --pretty=format:"%x09%h | %<(10,trunc)%cd |%<(25,trunc)%d | %s"
+git hist --branches
+git log --branches
+git history --branches
+git his --branches
+git hist --branches
+gitk --all
+gitk
+git show-branch --list
+ls
+git show-branch --all
+git show-branch
+git show-branch --list
+git show-branch --all
+git show-branch --All
+clear
+git show-branch --all
+git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+cd ..
+ls
+git clone http://gitlab.iexceed.com/root/syn.git
+sudo git clone http://gitlab.iexceed.com/root/syn.git
+sudo git clone http://192.168.1.41/root/syn.git
+ls
+cd syn/
+ls
+git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+git show-branch --all
+git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+git config --global alias.lg "log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+log --all --color --graph --pretty
+git log --all --color --graph --pretty
+ls
+git branch
+git branch -a
+git checkout Dev_sit
+sudo git branch Dev_sit
+git branch
+git checkout Dev_sit 
+sudo git checkout Dev_sit 
+git branch Dev_Pit
+sudo git branch Dev_Pit
+git branch
+git branch -a
+git checkout -b subbranch_of_Dev Dev_Pit
+sudo git checkout -b subbranch_of_Dev Dev_Pit
+git branch
+git branch -a
+git branchgit log --graph --simplify-by-decoration --pretty=format:'%d' --all
+git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+touch pat
+sudo touch pat
+git add .
+sudo git add .
+sudo git commit -m "All"
+git push origin subbranch_of_Dev 
+sudo git push origin subbranch_of_Dev
+git log
+clear
+git log --graph --simplify-by-decoration --pretty=format:'%d' --all
+git log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+git push -b origin
+gitk --all &
+gitk --all
+sudo apt-get upgrade
+run apt-get update --fix-missing
+sudo apt-get update --fix-missing
+sudo apt-get upgrade
+cd ../
+ls
+cd ..
+ls
+ll
+sudo chmod -R 777 syn/
+clear
+ls
+git clone http://gitlab.iexceed.com/root/syn.gitls
+clear
+sudo gitlab-ctl stop
+clear
+GET http://192.168.1.25:9000/
+ssh superuser@192.168.1.6
+cd
+ssh superuser@192.168.1.6
+clear
+ssh prudhvi.kumar@192.168.1.152
+ssh superuser@192.168.1.6
+git log
+git branch
+git branch subbranch_of_Dev/new
+sudo git branch subbranch_of_Dev/new
+sudo git branch testing subbranch_of_Dev 
+git branch
+cd .git/refs/
+ls
+cd heads/
+ls
+cat testing 
+cd ../
+cd remotes/
+ls
+cd origin/
+ls
+git checkout testing 
+cd ../
+git checkout testing 
+sudo git checkout testing 
+cd .git/refs/remotes/origin/
+ls
+cd ..
+ls
+cat config 
+sudo gedit config 
+git branch
+git branch -a
+cd ..
+git branh
+git branch
+cd .git/refs/remotes/origin/
+ls
+cat HEAD 
+cat subbranch_of_Dev 
+cd ..
+ls
+cd ../
+ls
+sudo git clone http://192.168.1.41/root/test.git --branch 10
+sudo rm -r test/
+sudo git clone http://192.168.1.41/root/test.git --branch 10
+ls
+cd test/
+ls
+git branch
+git branch 21
+sudo git branch 21
+git checkout 21
+sudo git checkout 21
+git branch 
+touch keep
+sudo touch keep
+git add .
+sudogit add .
+sudo git add .
+sudo git commit  -m "All"
+git push origin 21
+sudo git push origin 21
+ls
+sudo git push -u origin 10
+git checkout 10
+sudo git checkout 10
+git branch 
+git branch -a
+sudo git checkout 21
+git branch 24 21
+sudo git branch 24 21
+git checkout 24
+sudo git checkout 24
+ls
+touch cloud
+sudo touch cloud
+git add .
+sudo git add .
+sudo git commit -m "All"
+git push origin 24
+sudo git push origin 24
+sudo git branch 23 21
+sudo git checkout 23
+sudo touch hangout
+sudo git add .
+sudo git commit -m "All"
+sudo git push origin 23
+sudo git branch 25 24
+sudo git checkout 25
+sudo touch fit
+sudo git add .
+sudo git commit -m "All"
+sudo git push origin 25
+cd ..
+ls
+cd syn/
+ls
+git log
+git branch
+cd ..
+sudo rm -r syn/
+ls
+git clone http://192.168.1.41/root/syn.git
+sudo git clone http://192.168.1.41/root/syn.git
+ls
+cd syn/
+ls
+git branch
+git branch WEB master
+sudo git branch WEB master
+sudo git checkout WEB
+ls
+sudo touch web
+sudo git add .
+sudo git commit -m "All"
+sudo push origin WEB
+sudo git branch
+sudo git push origin WEB
+sudo git branch -d WEB 
+sudo git checkout master 
+sudo git branch -d WEB 
+sudo git branch -D WEB 
+clear
+sudo push origin
+sudo git push origin
+git pull
+sudo git pull
+clear
+git branch
+sudo git branch SYN_WEB
+sudo git checkout SYN_WEB 
+sudo touch web
+git add .
+git commit -m "All"
+git push origin SYN_WEB 
+ls
+git branch
+git branch SYN_WEB_SIT
+git checkout SYN_WEB_SIT 
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SIT 
+git branch SYN_WEB_UAT
+ls
+git branch -D SYN_WEB_UAT 
+git branch SYN_WEB_UAT SYN_WEB
+ls
+git status
+git branch
+git branch -D SYN_WEB_UAT 
+git branch
+ls
+git branch SYN_WEB_UAT SYN_WEB
+git checkout SYN_WEB_UAT 
+ls
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_WEB_UAT 
+ls
+git branch
+git branch SYN_WEB_PROD SYN_WEB
+git checkout SYN_WEB_P
+git checkout SYN_WEB_PROD 
+ls
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_WEB_PROD 
+ls
+git branch
+git branch SYN_MOBILE SYN_WEB
+git checkout SYN_MOBILE 
+touch mobile
+git add .
+git commit -m "All"
+git push origin SYN_MOBILE 
+git branch SYN_MOB_SIT
+git checkout SYN_MOB_SIT 
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT 
+git branch -D SYN_MOB_SIT
+git checkout SYN_MOBILE 
+git branch -D SYN_MOB_SIT
+git branch SYN_MOB_SIT SYN_MOBILE 
+git checkout SYN_MOB_SIT 
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT 
+git branch SYN_MOB_UAT SYN_MOBILE 
+git checkout SYN_MOB_UAT 
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT 
+git branch SYN_MOB_PROD SYN_MOBILE 
+git checkout SYN_MOB_PROD 
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD 
+git branch
+git branch SYN_MOB_PROD_DEV SYN_MOB_PROD  
+git checkout SYN_MOB_PROD_DEV 
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_DEV 
+git branch SYN_MOB_PROD_SUP SYN_MOB_PROD  
+git checkout SYN_MOB_PROD_SUP 
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_SUP 
+git branch
+git branch -D SYN_MOB_PROD
+git branch -D SYN_MOB_PROD_DEV 
+git branch -D SYN_MOB_PROD_SUP 
+git checkout master 
+git branch -D SYN_MOB_PROD_SUP 
+git branch 
+git branch SYN_MOB_PROD SYN_MOBILE 
+git checkout SYN_MOB_PROD
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD 
+git branch SYN_MOB_PROD_SIT SYN_MOB_PROD 
+git checkout SYN_MOB_PROD_SIT 
+git branh
+
+git branch SYN_MOB_PROD
+git checkout  SYN_MOB_PROD
+git branch -D SYN_MOB_PROD_SIT
+git branch
+git branch SYN_MOB_PROD_DEV SYN_MOB_PROD
+git checkout SYN_MOB_PROD_DEV
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_DEV 
+git branch SYN_MOB_PROD_SUP SYN_MOB_PROD
+git checkout SYN_MOB_PROD_SUP 
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_SUP 
+git branch SYN_MOB_SIT_SUP SYN_MOB_SIT 
+git checkout SYN_MOB_SIT_SUP 
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT_SUP 
+git branch SYN_MOB_SIT_DEV SYN_MOB_SIT 
+git checkout SYN_MOB_SIT_DEV 
+touch dev
+git add.
+git  add .
+git commit -m "All"
+git push origin SYN_MOB_SIT_DEV 
+git branch SYN_MOB_UAT_DEV SYN_MOB_UAT  
+git checkout SYN_MOB_UAT_DEV 
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT_DEV 
+git branch SYN_MOB_UAT_SUP SYN_MOB_UAT  
+git checkout SYN_MOB_UAT_SUP 
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT_SUP 
+git branch SYN_WEB_PROD_SUP SYN_WEB_PROD
+git checkout SYN_WEB_PROD_SUP 
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_WEB_PROD_SUP 
+git branch SYN_WEB_PROD_DEV SYN_WEB_PROD
+git checkout SYN_WEB_PROD_DEV 
+ls
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_WEB_PROD_DEV
+git branch SYN_WEB_UAT_DEV SYN_WEB_UAT
+git checkout SYN_WEB_UAT_DEV 
+ls
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_WEB_UAT_DEV 
+git branch SYN_WEB_UAT_SUP SYN_WEB_UAT
+git checkout SYN_WEB_UAT_SUP 
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_WEB_UAT_SUP 
+git branch SYN_WEB_SIT_SUP SYN_WEB_SIT
+git checkout SYN_WEB_SIT_SUP
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SIT_SUP 
+git branch SYN_WEB_SIT_DEV SYN_WEB_SIT
+git checkout SYN_WEB_SIT_DEV 
+ls
+touch dev
+git add 
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SIT_DEV 
+git branch
+git branch -D SYN_MOBILE SYN_MOB_PROD SYN_MOB_PROD_DEV SYN_MOB_PROD_SUP SYN_MOB_SIT 
+clear
+git branch
+git branch -D SYN_MOB_SIT_DEV SYN_MOB_SIT_SUP SYN_MOB_UAT SYN_MOB_UAT_DEV SYN_MOB_UAT_SUP
+clear
+git branch SYN_MOBILE master
+git checkout SYN_MOBILE 
+ls
+touch mobile
+git add .
+git commit -m "All"
+git push origin SYN_MOBILE 
+git branch SYN_MOB_SIT SYN_MOBILE 
+git branch SYN_MOB_UAT SYN_MOBILE 
+git branch SYN_MOB_PROD SYN_MOBILE 
+git checkout SYN_MOB_SIT
+ls
+git sit
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT 
+git checkout SYN_MOB_UAT
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT 
+ls
+git push origin SYN_MOB_PROD 
+git checkout SYN_MOB_PROD
+touch prog
+sudo rm -r prog 
+touch prod
+git add .
+git commit -m "A;;"
+git push origin SYN_MOB_PROD 
+git branch SYN_MOB_SIT_PROD SYN_MOB_SIT 
+git branch -D SYN_MOB_SIT_PROD
+git branch SYN_MOB_SIT_DEV SYN_MOB_SIT
+git branch SYN_MOB_SIT_SUP SYN_MOB_SIT
+git checkout SYN_MOB_SIT_DEV 
+ls
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT_DEV
+git checkout SYN_MOB_SIT_SUP 
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SIT_SUP 
+git branch SYN_MOB_UAT_SUP SYN_MOB_UAT 
+git branch SYN_MOB_UAT_DEV SYN_MOB_UAT 
+git checkout SYN_MOB_UAT_SUP 
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT_SUP
+git checkout SYN_MOB_UAT_DEV 
+ls
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_UAT_DEV 
+git branch SYN_MOB_PROD_DEV SYN_MOB_PROD  
+git branch SYN_MOB_PROD_SUP SYN_MOB_PROD  
+git checkout SYN_MOB_PROD_SUP
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_SUP
+git checkout SYN_MOB_PROD_DEV 
+touch dev
+git add .
+git commit -m "All"
+git push origin SYN_MOB_PROD_DEV
+git branch
+git branch -D SYN_MOB_PROD SYN_MOB_PROD_SUP SYN_MOB_SIT SYN_MOB_SIT_DEV SYN_MOB_SIT_SUP SYN_MOB_UAT SYN_MOB_UAT_DEV SYN_MOB_UAT_SUP 
+clear
+git branch
+git branch -D SYN_WEB_PROD SYN_WEB_PROD_DEV SYN_WEB_PROD_SUP SYN_WEB_SIT SYN_WEB_SIT_DEV SYN_WEB_SIT_SUP 
+git branch 
+git branch -D SYN_WEB_UAT SYN_WEB_UAT_DEV SYN_WEB_UAT_SUP 
+clear
+ls
+git checkout master 
+git branch
+git branch SYN_MOB_PROD_DEV
+git branch -D SYN_MOB_PROD_DEV
+git branch
+git branch SYN_WEB_DEV SYN_WEB
+git branch SYN_WEB_SUPP SYN_WEB
+git checkout SYN_WEB_DEV 
+ls
+touch development
+git add
+git commit -m "All"
+git push origin SYN_WEB_DEV 
+git checkout SYN_WEB_SUPP
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SUPP 
+git branch
+git branch SYN_WEB_DEV SYN_WEB_DEV_SIT
+git branch SYN_WEB_DEV_SIT SYN_WEB_DEV
+git branch SYN_WEB_DEV_UAT SYN_WEB_DEV
+git branch SYN_WEB_DEV_PROD SYN_WEB_DEV
+git checkout SYN_WEB_DEV_SIT 
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_WEB_DEV_SIT
+git checkout SYN_WEB_DEV_UAT 
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_WEB_DEV_UAT 
+git checkout SYN_WEB_DEV_PROD 
+git add .
+git commit -m "All"
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_WEB_DEV_PROD 
+git branch SYN_WEB_SUPP_PROD SYN_WEB_SUPP
+git branch SYN_WEB_SUPP_UAT SYN_WEB_SUPP
+git branch SYN_WEB_SUPP_SIT SYN_WEB_SUPP
+git checkout SYN_WEB_SUPP_SIT 
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SUPP_SIT 
+git checkout SYN_WEB_SUPP_UAT 
+ls
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SUPP_UAT 
+git checkout SYN_WEB_SUPP_PROD 
+ls
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_WEB_SUPP_PROD
+ls
+git branch 
+git branch SYN_WEB_SUPP SYN_MOBILE 
+git branch SYN_MOB_SUPP SYN_MOBILE 
+git branch SYN_MOB_DEV SYN_MOBILE 
+git checkout SYN_MOB_DEV 
+ls
+touch development
+git add .
+git commit -m "All"
+git push origin SYN_MOB_DEV 
+git checkout SYN_MOB_SUPP
+ls
+touch support
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SUPP
+git branch 
+git branch SYN_MOB_DEV_SIT SYN_MOB_DEV
+git branch SYN_MOB_DEV_UAT SYN_MOB_DEV
+git branch SYN_MOB_DEV_PROD SYN_MOB_DEV
+git checkout SYN_MOB_DEV_SIT
+ls
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_MOB_DEV_SIT
+git checkout SYN_MOB_DEV_UAT 
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_MOB_DEV_UAT 
+git checkout SYN_MOB_DEV_PROD 
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_MOB_DEV_PROD 
+ls
+git branch SYN_MOB_SUPP_SIT SYN_MOB_SUPP
+git branch SYN_MOB_SUPP_UAT SYN_MOB_SUPP
+git branch SYN_MOB_SUPP_PROD SYN_MOB_SUPP
+git checkout SYN_MOB_SUPP_SIT 
+ls
+git sit
+touch sit
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SUPP_SIT 
+git checkout SYN_MOB_SUPP_UAT  
+touch uat
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SUPP_UAT 
+git checkout SYN_MOB_SUPP_PROD 
+ls
+touch prof
+sudo rm -r prof 
+touch prod
+git add .
+git commit -m "All"
+git push origin SYN_MOB_SUPP_PROD 
+git branch 
+sudo gitlab-ctl stop
+cd /home/i-exceed.com/amar.khan/
+ls
+cd Downloads/
+cd sonarqube-7.1/
+cd bin/linux-x86-64/
+./sonar.sh start
+sudo gedit sonar.sh 
+ls
+ll
+cd ..
+ssh keygen
+./sonar.sh stop
+cd linux-x86-64/
+./sonar.sh stop
+cd ..
+ls
+scp sonarqube-7.1.zip  ubuntu@192.168.1.86:/tmp
+sudo service apache2 status
+sudo service apache2 start
+sudo service apache2 status
+ifconfig
+sudo service apache2 stop
+sudo gitlab-ctl start
+sudo service apache2 stop
+su
+su -
+su superuser
+su - superuser
+cd
+su root
+su -
+su
+sudo -
+su - superuser
+scp ifconfig
+ifconfig
+dpkg --remove appzillon 
+dpkg --remove appzillon
+sudodpkg --remove appzillon
+sudo dpkg --remove appzillon
+cd /tmp/
+ls
+sudo dpkg -i appzillon-3.1.deb 
+sudo dpkg --remove appzillon
+sudo dpkg -i Appzillon-3.6.0.deb 
+clear
+ls
+clear
+cd /home/i-exceed.com/amar.khan/Downloads/
+ls
+cd sonarqube-7.1/
+ls
+cd ..
+cp sonarqube-7.1 /home/i-exceed.com/prudhvi.kumar/Desktop/
+sudocp -r sonarqube-7.1 /home/i-exceed.com/prudhvi.kumar/Desktop/
+sudo cp -r sonarqube-7.1 /home/i-exceed.com/prudhvi.kumar/Desktop/
+cd sonarqube-7.1/
+ls
+ll
+cd 
+cd /home/i-exceed.com/prudhvi.kumar/
+cd Desktop/
+l
+cd sonarqube-7.1/
+cd bin/
+ls
+cd linux-x86-64/
+ls
+./sonar.sh start
+cd
+cd /Des
+cd Desktop/
+ll
+sudo chown prudhvi.kumar:domain users sonarqube-7.1/
+sudo chown prudhvi.kumar:domain_users sonarqube-7.1/
+sudo chown prudhvi.kumar sonarqube-7.1/
+ll
+sudo chmod 777 sonarqube-7.1/
+ll
+cd sonarqube-7.1/
+cd bin/linux-x86-64/
+./sonar.sh start
+cd
+cd Desktop/
+sudo chmod 600 sonarqube-7.1/
+ll
+cd sonarqube-7.1/
+sudo chmod 755 sonarqube-7.1/
+cd sonarqube-7.1/
+cd bin/linux-x86-64/
+sudo ./sonar.sh start
+sudo mysql -u root -p
+sudo service apache2 status
+sudo service apache2 start
+sudo mysql -u root -p
+cd ..
+cd ../
+cd conf/
+sudo gedit sonar.properties 
+cd ../
+ls
+cd bin/linux-x86-64/
+./sonar.sh stop
+./sonar.sh restart
+sudo ./sonar.sh restart
+./sonar.sh restart
+sudo ./sonar.sh restart
+sudo ./sonar.sh status
+sudo ./sonar.sh start
+sudo ./sonar.sh status
+sudo ./sonar.sh start
+sudo ./sonar.sh status
+cd ..
+sudo rm sonarqube-7.1/
+sudo rm -r sonarqube-7.1/
+clear
+cd /opt/sonarqube-7.2.1/
+cd ..
+ls
+cd sonarqube-7.2.1/
+ls
+cd sonarqube-7.2.1/bin/linux-x86-64/
+l
+sudo ./sonar.sh start
+sudo ./sonar.sh status
+cd ..
+cd logs/
+ls
+sudo gedit sonar.log 
+java -version
+cd ..
+ll
+sudo chown prudhvi.kumar sonarqube-7.2.1/
+cd sonarqube-7.2.1/sonarqube-7.2.1/bin/linux-x86-64/
+sudo ./sonar.sh start
+sudo ./sonar.sh status
+ifconfig
+cd
+cd /tmp/
+ls
+ll
+ssh superuser@192.168.1.6
+ls
+pwd
+exit
+cd
+cd Downloads/
+ls
+sudo cp -r apache-maven-3.5.2 /opt/
+cd /opt/
+ls
+cd apache-maven-3.5.2/
+ls
+cd bin/
+ls
+export MAVEN_HOME=/home/user1/etc/maven/
+clear
+ssh prudhvi.kumar@192.168.1.152
+ls
+cd /tmp/
+ls
+mkdir App
+cd A
+cd App/
+ls
+svn checkout http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ls
+cd Studio/
+ls
+mvn install
+sudo mvn install
+sudo mvn clean
+sudo mvn clean install
+mvn -v
+java -v
+java -version
+clear
+java -version
+which java
+cd /usr/bin/java
+cd /opt/
+ls
+cd Appzillon/
+ls
+cd A
+cd
+whereis java
+clear
+java -version
+cd /tmp/
+ls
+cd App/
+ls
+cd Studio/
+ls
+mvn clean install
+sudo mvn clean install
+sudo mvn -e clean install
+mvn -v
+sudo apt-get remove maven
+mvn -v
+clear
+whereis mvn
+whereis m
+which mn
+which mvn
+clear
+cd /opt/
+cd apache-maven-3.5.2/
+ls
+pwd
+source .bashrc
+cd /tmp/App/Studio/
+ls
+sudo mvn clean install
+mvn -v
+cd
+sudo gedit .bashrc
+source .bashrc
+mvn -v
+mv -v
+mvn -v
+cd /tmp/App/
+cd Studio/
+ls
+mvn clean install
+sudo mvn clean install
+mvn -v
+clear
+sudo mvn clean
+cd
+sudo gedit .bashrc
+mvn -v
+mvn clean
+cd /tmp/App/Studio/
+mvn clean
+cd /tmp/App/Studio/ClientJars/
+ls
+sudo rm -r org.eclipse.jgit-4.6.0.201612231935-r.jar
+ls
+mvn clean
+cd /tmp/App/Studio/
+mvn clean
+sudo mvn clean
+cd
+sudo gedit .bashrc
+sudo source .bashrc
+source .bashrc
+mvn -v
+cd .op
+cd /opt/
+ll
+sudo chmod -R 777 apache-maven-3.5.2/
+cd
+source .bashrc
+mvn -version
+cd /tmp/App/Studio/
+sudo mvn clean
+cd
+sudo gedit .bashrc
+source .bashrc
+mvn -v
+mvn -v
+ifconfig
+sudo service mysql status
+clear
+cd 
+ssh prudhvi.kumar@192.168.1.152
+clear
+ping 192.168.1.6
+cd sona
+prudhvi.kumar
+clear
+users
+sudo gitlab-ctq
+sudo gitlab-ctl start
+sudo service apache2 status
+sudo service apache2 stop
+sudo service apache2 status
+sudo gedit /etc/gitlab/gitlab.rb
+sudo gedit /etc/hosts
+sudo gitlab-ctl reconfigure
+sudo gedit /etc/gitlab/gitlab.rb
+sudo gitlab-ctl reconfigure
+sudo gedit /etc/gitlab/gitlab.rb
+sudo gitlab-ctl reconfigure
+sudo gedit /etc/gitlab/gitlab.rb
+sudo gedit /etc/hosts
+sudo gitlab-ctl stop
+clear
+ssh superuser@192.168.1.6
+cd /opt/
+wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.5.2-bin.tar.gz
+wget https://archive.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz
+sudo wget https://archive.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz
+ls
+sudo rm -r apache-maven-3.5.2
+ls
+sudo tar -xvzf apache-maven-3.5.2-bin.tar.gz
+ls
+sudo mv apache-maven-3.5.2 maven 
+ls
+sudo nano /etc/profile.d/mavenenv.sh
+sudo gedit /etc/profile.d/mavenenv.sh
+sudo chmod +x /etc/profile.d/mavenenv.sh
+sudo source /etc/profile.d/mavenenv.sh
+source /etc/profile.d/mavenenv.sh
+mvn --version
+clear
+mvn -v
+cd /tmp/App/Studio/
+ls
+sudo mvn clean
+ls
+ll
+cd .m2/
+ls
+cd repository/
+ls
+cd com/
+ls
+cd ..
+cd mic
+ll
+cd com
+cd microsoft/
+ls
+sudo scp -r sqlserver/ prudhvi.kumar@192.168.1.152:/tmp/
+cd ..
+cd oracle/
+ls
+sudo scp -r ojdbc6/ prudhvi.kumar@192.168.1.152:/tmp/
+exit
+cd /tmp/App/St
+cd /tmp/App/
+ls
+cd /tmp/
+ls
+mkdir App
+cd App/
+svn checkout http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ssh prudhvi.kumar@192.168.1.152
+ssh superuser@192.168.1.6
+docker ps
+docker exec -it 7b1b73dc6711 /bin/bash
+cd /etc/maven/
+ls
+sudo gedit settings.xml
+clear
+cd '/home/i-exceed.com/prudhvi.kumar/Lenovo.old/Appzillon_Pract/SVN_APP/Studio' 
+ls
+mvn clean
+mvn clean install package deploy
+cd /etc/maven/
+sudo gedit settings.xml
+cd '/home/i-exceed.com/prudhvi.kumar/Lenovo.old/Appzillon_Pract/SVN_APP/Studio' 
+mvn clean
+mvn clean install
+mvn deploy
+clear
+mvn clean install
+cd appzillonstudio-client/
+ls
+ant
+cd 
+clear
+docker ps
+cd Lenovo.old/Appzillon_Pract/SVN_APP/Studio/appzillonstudio-client
+ls
+nexusArtifactUploader artifacts: [[artifactId: 'parent-appzillonstudio', classifier: '', file: '/appzillonstudio-client/build/bundles/appzillon-3.1.deb', type: 'deb']], credentialsId: 'Nexuspass', groupId: 'com.iexceed.apz', nexusUrl: 'http://192.168.1.41:8067/repository/Appzillon/', nexusVersion: 'nexus3', protocol: 'http', repository: 'Appzillon', version: "${versionnum}"
+clear
+cd
+clear
+cd /tmp/
+cd App/
+ls
+cd ..
+ls
+sudo cp -r repository/ /home/i-exceed.com/prudhvi.kumar/.m2/
+cd App/Studio/
+ls
+mvn clean install
+ls
+cd appzillonstudio-client/
+ls
+ant
+antls
+ls
+cd build/
+ls
+cd bundles/
+ls
+ssh prudhvi.kumar@192.168.1.152
+ls
+cd
+cd Downloads/
+ls
+sudo dpkg -i wps-office_10.1.0.5707~a21_amd64.deb 
+cd
+cd '/home/i-exceed.com/prudhvi.kumar/Desktop/web-boot' 
+ls
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/prudhvikumar789/scripts.git
+git add .
+git commit -m "All"
+git push origin master
+git pull
+git pull remote master
+git init
+git remote add origin https://github.com/prudhvikumar789/scripts.git
+git add .
+git commit -m "ALL"
+git push origin master
+git pull origin master
+git push origin master
+grep SECCOMP /boot/config-$(uname -r)
+sudo gitlab-ctl status
+docker ps
+clear
+docker ps -a
+docker images
+ansible -v
+ansible -version
+ansible --version
+ansible -V
+clear
+ssh ansible@192.168.1.23
+ansibel -V
+clear
+ansible -V
+ansible --version
+ansible --V
+ansible -V
+ansible -v
+ansible --version
+clear
+cd
+docker images
+docker run -d -it -p 8067:8080 ubuntu:latest /bin/bash
+docker ps 
+docker exec -it 741dcd40a6e3 /bin/bash
+docker ps
+docker stop 741dcd40a6e3
+docker ps
+docker images
+docker run -d -it -p 8067:8081 ubuntu:latest /bin/bash
+docker exec -it 7b1b73dc6711baf66d83fd785ed4b02af9841b6e60074f4e3386e36752ea91cf /bin/bash
+docker ps
+docker stop 7b1b73dc6711
+docker status 7b1b73dc6711
+clear
+sudo gitlab-ctl stop
+mvn -v
+sudo mvn clean
+echo &M2_HOME
+echo $M2_HOME
+cd $M2_HOME 
+ls
+cd bin/
+ls
+cd ..
+ll
+sudo chmod -R 777 maven/
+cd /tmp/App/
+ls
+ll
+sudo chmod -R 777 Studio/
+cd Studio/
+mvn install 
+mvn clean
+mvn clean install
+cd ..
+cd 
+cd .m2/
+ls
+cd ..
+sudo mv .m2/ .m3/
+ls
+ll
+mkdir .m2/
+ls
+cd .m2/
+ls
+cd ..
+ll
+sudo chmod -R 777 .m2/
+ll
+clear
+ls
+ant -v
+which ant
+whereis ant
+cd /tmp/
+ls
+cd App/
+cd Studio/
+cd appzillonstudio-client/build/bundles/
+ls
+sudo scp -r appzillon-3.1.deb prudhvi.kumar@192.168.1.152:/tmp/
+ls
+cd ..
+ls
+cd ..
+ls
+cd Appzillon/
+ls
+cd ..
+ls
+mvn clean install >log.txt
+ls
+pwd
+ls
+diff log.txt six.txt 
+diff log.txt six.txt >diff.txt
+ls
+sudo gedit diff.txt 
+vimdiff log.txt six.txt 
+vidiff log.txt six.txt 
+sudo apt-get install vim
+vimdiff log.txt six.txt 
+cd appzillonstudio-client/
+ls
+ant >my.log
+vimdiff my.log log.txt 
+cd 
+ll
+cd /tmp/
+ls
+vimdiff oldlog.txt newlog.txt 
+sudo gedit oldlog.txt 
+vimdiff oldlog.txt newlog.txt 
+ping 192.168.1.138
+ssh superuser@192.168.1.6
+sudo gitlab-ctl stop
+exit
+ssh-add ~/.ssh/id_rsa
+ansible all -m ping
+ansible -m ping 192.168.1.104
+ssh ansible@192.168.1.104
+clear
+ansible -m ping 192.168.1.104
+ping 192.168.1.104
+ansible 192.168.1.104 -m ping
+ansible -m ping 192.168.1.104
+ansible all -m ping -u ansible
+ls
+sudo gedit ansible.cfg
+ansible -m ping 192.168.1.104
+sudo gedit ansible.cfg
+ansible -m ping 192.168.1.104
+clear
+ansible  -m ping 192.168.1.104
+sudo gedit hosts
+ssh-copy-id 192.168.1.104
+ssh-copy-id -u ansible 192.168.1.104
+ssh-copy-id ansible@192.168.1.104
+ansible  -m ping 192.168.1.104
+ansible  -m ping localhost
+ansible  -m -vvvv ping 192.168.1.104
+clear
+ansible  -m -vvv ping 192.168.1.104
+clear
+ansible  -m ping 192.168.1.104 -vvv
+sudo gedit hosts
+ansible  -m ping 192.168.1.104
+ansible  -m ping 192.168.1.104 -vvv
+ansible  -m ping 192.168.1.41
+ansible  -m ping localhost
+ansible  -m ping 192.168.1.104
+ansible  -m ping 192.168.1.41
+ansible  -m ping 192.168.1.104
+ansible  -m ping 192.168.1.104 -u ansible
+ansible  -m ping localhost
+ansible all -a "/bin/echo hello"
+ansible  -m ping 192.168.1.41
+ansible all -a "/bin/echo hello"
+ansible localhost -m ping -e 'ansible_python_interpreter="/usr/bin/env python"'
+ansible localhost -m ping
+ansible -m ping ansible
+ansible -m ping ansiblevm
+ansible -m ping ansible
+ansible -m ping ansiblevm
+clear
+ansible -m ping ansiblevm
+ansible -m ping -i '/home/i-exceed.com/prudhvi.kumar/Desktop/hosts' 192.168.1.104
+ansible -m ping -i '/home/i-exceed.com/prudhvi.kumar/Desktop/hosts' 192
+ansible -m ping -i '/home/i-exceed.com/prudhvi.kumar/Desktop/hosts' 192.168.1.104
+ansible -m ping -i '/home/i-exceed.com/prudhvi.kumar/Desktop/hosts' ansible
+ansible -m ping -i '/home/i-exceed.com/prudhvi.kumar/Desktop/hosts' ansiblevm
+ansible -m ping ansiblevm
+clear
+ansible ansible -a "/sbin/reboot" -f 10
+ansible ansiblevm -a "/sbin/reboot" -f 10
+ansible ansiblevm -a "/sbin/reboot" -f 10 -K
+ansible ansiblevm -a "/sbin/reboot" -f 10 -k
+ansible  -m ping webservers
+ansible webservers -a "/sbin/reboot" -f 10 -k
+ansible webservers -a "/sbin/reboot" -f 10
+ansible webservers -a "/sbin/reboot" -f 10 --ask--pass
+ansible webservers -a "/sbin/reboot" -f 10 --ask-pass
+ansible webservers -a "/sbin/reboot" -f 10 --ask-pass -vvv
+ansible webservers -a "/sbin/reboot" -f 10 -u ansible
+ansible webservers -a "/sbin/reboot" -f 10
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -u ansible
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -u ansible --ask-pass
+systemctl status reboot.target
+systemctl status reboot.ansiblevm
+clear
+ansible ansiblevm -a "/sbin/shutdown -r now"
+ansible ansiblevm -a "/sbin/shutdown -r now -b"
+ansible ansiblevm -a "/sbin/shutdown -r now --b"
+ansible ansiblevm -a "/sbin/shutdown -r now"
+ansible ansiblevm -a "/sbin/shutdown -r now -K"
+ansible ansiblevm -a "/sbin/shutdown -r now" -b
+ansible ansiblevm -a "/sbin/shutdown -r now" -b -K
+ansible -m ping ansiblevm
+ansible ansiblevm "/sbin/shutdown -r now" -b -K
+ansible ansiblevm "/sbin/shutdown -r now"
+clear
+ansible ansiblevm -a "/sbin/shutdown -r now" -b -K
+ansible 192.168.1.104 -a "/sbin/shutdown -r now" -b -K
+ansible -m ping ansiblevm
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -b -K
+ansible -m ping ansiblevm
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -b
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -b --ask-pass
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -b -k
+ansible 192.168.1.104 -a "/sbin/reboot" -f 10 -b -K
+ansible -m ping ansiblevm
+ansible 192.168.1.104 -a "/sbin/shutdown -r now" -b -K
+ansible 192.168.1.104 -a "/sbin/shutdown now" -b -K
+ansible 192.168.1.104 -a "/sbin/shutdown now" -b -u prudhvi.kumar -K
+clear
+ansible ansiblevm -a "/sbin/shutdown -r now" -b -u prudhvi.kumar -K
+ansible atlanta -a "/usr/bin/foo" -u username
+ansible ansiblevm -a "/usr/bin/foo" -u prudhvi.kumar
+ansible webservers -m ping 
+ansible webservers -m ping 192.168.1.1
+clear
+ansible webservers -m ping 192.168.1.104
+clear
+ansible ansiblevm -m shell -a 'echo $TERM'
+ansible ansiblevm -m shell -a 'terminal'
+terminal
+ansible ansiblevm -m shell -a 'rspterminal'
+ansible ansiblevm -m shell -a 'ls'
+ansible ansiblevm -m shell -a 'll'
+ansible ansiblevm -m shell -a 'ls -la'
+ansible ansiblevm -m shell -a "ll"
+ansible ansiblevm -m copy -a "src=/etc/hosts dest=/tmp/hosts"
+ansible webservers -m copy -a "src=/etc/hosts dest=/tmp/hosts"
+ansible webservers -m file -a "dest=/tmp/hosts mode=600"
+ansible webservers -m file -a "dest=/tmp/hosts mode=600 owner=prudhvi.kumar group=prudhvi.kumar"
+ansible webservers -m file -a "dest=/tmp/hosts mode=600 owner=prudhvi.kumar"
+ansible ansiblevm -m shell -a 'mkdir two'
+ansible ansiblevm -m shell -a 'rm -r two'
+ansible webservers -m shell -a 'mkdir two'
+ansible webservers -m file -a "dest=/home/ansible/two mode=600 owner=prudhvi.kumar"
+ansible webservers -m file -a "dest=/home/ansible/two mode=600 owner=prudhvi.kumar" -b
+ansible webservers -m file -a "dest=/home/ansible/two mode=600 owner=prudhvi.kumar" -b -K
+ansible webservers -m file -a "dest=/home/ansible/three mode=600 owner=prudhvi.kumar state=directory" -b -K
+ansible webservers -m file -a "dest=/home/ansible/three mode=755 owner=prudhvi.kumar state=directory" -b -K
+ansible webservers -m file -a "dest=/home/ansible/three mode=755 owner=prudhvi.kumar state=directory" -K
+ansible webservers -m file -a "dest=/home/ansible/three mode=755 owner=prudhvi.kumar state=directory" -b -K
+clear
+ansible webservers -m file -a "dest=/home/ansible/three  state=absent" -K
+ansible webservers -m apt -a "name=acme state=present"
+ansible webservers -m apt -a "name=acme state=present" -K
+ansible webservers -m apt -a "name=acme state=present"  -b -K
+ansible webservers -m apt -a "name=sudo  state=present"  -b -K
+ansible webservers -m apt -a "name=vim  state=present"  -b -K
+clear
+ansible webservers -m apt -a "name=vim  state=present"  -b -K
+ansible webservers -m apt -a "name=google  state=present"  -b -K
+ansible webservers -m apt -a "name=vim  state=latest"  -b -K
+ansible webservers -m apt -a "name=vim  state=bsent"  -b -K
+ansible webservers -m apt -a "name=vim  state=absent"  -b -K
+ansible webservers -m apt -a "name=vim  state=absent" -K
+ansible webservers -m apt -a "name=vim  state=present" -K
+clear
+ansible all -m user -a "name=prudhvi.kumar"
+ansible all -m user -a "name=prudhvi"
+ansible all -m user -a "name=prudhvi state=absent" 
+ansible all -m user -a "name=prudhvi state=present" 
+ansible ansiblevm -m user -a "name=prudhvi password=root"
+ansible ansiblevm -m user -a "name=prudhvi password=root" -K
+ansible ansiblevm -m user -a "name=prudhvi password=root" -b -K
+ansible ansiblevm -m user -a "name=prudhvi state=absent" -b -K
+ansible webservers -m service -a "name=httpd state=started"
+ansible webservers -m service -a "name=httpd state=started" -b
+ansible webservers -m service -a "name=httpd state=started" -b -K
+ansible webservers -m ping
+ansible webservers -m command -a "/sbin/reboot -t now"
+ansible webservers -m command -a "/sbin/reboot -t 10 now"
+ansible webservers -m command -a "/sbin/reboot --t 10 now"
+clear
+ls
+ansible-doc users
+ansible-doc user
+OA
+ansible-doc yumansible-doc yum
+clear
+cl
+clear
+exit
+ls
+exit
+cd '/home/i-exceed.com/prudhvi.kumar/Lenovo.old/Appzillon_SC/Studio/appzillonstudio-client/Appzillon/AppzillonDefaults/AppzillonAppTestProject/appzillon-test/
+cd '/home/i-exceed.com/prudhvi.kumar/Lenovo.old/Appzillon_SC/Studio/appzillonstudio-client/Appzillon/AppzillonDefaults/AppzillonAppTestProject/appzillon-test/'
+clear
+mvn exec:java
+mvn -v
+mvn exec:copy-dependencies
+mvn exec:java@copy-dependencies
+mvn clean exec:java@copy-dependencies
+cd ..
+mvn clean install
+clear
+mvn clean
+clear
+mvn clean
+clear
+mvn clean
+mvn install
+mvn clean
+clear
+mvn install
+mvn clean
+mvn deploy
+mvn deploy -DaltDeploymentRepository=Appzillon-SNAP
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn install
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn install
+mvn deploy
+mvn clean
+mvn install
+clear
+mvn clean
+mvn install
+mvn clean
+clear
+mvn deploy
+mvn clean
+mvn install
+clear
+mvn clean
+mvn install
+mvn clean
+mvn install
+mvn clean
+mvn install
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+mvn deploy
+mvn clean
+cleam
+clean
+clear
+mvn clean
+mvn deploy
+mvn clean
+mvn deploy
+mvn install
+cd
+clear
+curl -X DELETE -u admin:admin123 http://192.168.1.41:8067/repository/maven-releases/com
+curl -X DELETE -u admin:admin123 http://192.168.1.41:8067/service/rest/repository/browse/maven-releases/com
+sudo curl -X DELETE -u admin:admin123 http://192.168.1.41:8067/service/rest/repository/browse/maven-releases/com
+ssh superuser@192.168.1.6
+ansible --version
+docker ps
+docker rename 7b1b73dc6711 nexus
+docker ps
+docker rename ef7bb6d574f1 SonarQube
+clear
+docker stop SonarQube 
+docker stop nexus 
+clear
+sudo gedit /etc/ansible/hosts
+cd /etc/ansible
+ls
+cp hosts /home/i-exceed.com/prudhvi.kumar/Desktop/hosts
+sudo gedit /etc/ansible/hosts
+ssh-agent bash
+exit
+ls
+ansible webservers -m users -a "name=prudhvi state=absent"
+ansible webservers -m user -a "name=prudhvi state=absent"
+ansible webservers -m user -a "name=prudhvi state=present"
+ansible-doc git
+s
+ssssssssexit
+exit
+ansible-doc setup
+ls
+cd /home/i-exceed.com/prudhvi.kumar/
+ls
+cd
+cd /home/i-exceed.com/prudhvi.kumar/Documents/
+mkdir ansible-playbooks
+cd ansible-playbooks/
+git clone https://github.com/ansible/ansible-examples.git
+cd /usr/bin/
+ls
+cd ansible
+cat ansible
+clear
+docker ps
+docker ps -a
+docker start nexus
+docker exec -it nexus /bin/bash
+clear
+docker ps
+docker stop nexus 
+ssh prudhvi.kumar@192.168.1.73
+sudo ssh prudhvi.kumar@192.168.1.73
+sudo ssh superuser@192.168.1.73
+cd /etc/ansible/
+ls
+ansible -m ping 192.168.1.73 -u prudhvi.kumar
+ansible -m ping 192.168.1.73 -K prudhvi.kumar
+ansible -m ping 192.168.1.73 -K
+clear
+sudo gedit hosts
+ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73 -K
+ping 192.168.1.73
+ansible -m ping 192.168.1.73
+sudo gedit hosts
+clear
+ssh prudhvi.kumar@192.168.1.152
+cd /etc/maven/
+sudo gedit settings.xml
+cd /home/i-exceed.com/prudhvi.kumar/Lenovo.old/Appzillon_SC/Studio/appzillonstudio-server/target/
+ls
+cd /etc/maven/
+sudo gedit settings.xml
+clear
+docker ps
+docker ps -a
+docker run -d -it -p 8068:9000 ubuntu:latest /bin/bash
+docker ps
+docker exec -it ef7bb6d574f1f878261f1 /bin/bash
+cd
+cd .ssh/
+ls
+cd /etc/ansible/
+sudo gedit hosts
+clear
+sudo gedit hosts
+cd
+clear
+ssh 192.168.1.73
+ping 192.168.1.73
+clear
+sudo rm -r .eclipse/
+cd /tmp/
+ll
+cd /etc/ansible/
+sudo gedit hosts
+sudo gedit  /etc/ansible.cfg
+sudo gedit ansible.cfg
+sudo gedit hosts
+ssh-add id_rsa.pub
+ssh-add id_rsa
+cd /Documents/ansible-playbooks/ansible-examples/Practise
+cd /home/i-exceed.com/prudhvi.kumar/Documents/ansible-playbooks/ansible-examples/Practise
+ls
+ansible -m ping ansiblevm
+ssh-add -----BEGIN RSA PRIVATE KEY----- 
+MIIEpAIBAAKCAQEA28zN4yog2JGcge8O4/6NcPD+6Lm8KAxia6/cEJ4rOL8kC/29
+DmL7kYc14x1kEWI6hQCuoKgDlwb55rWty/Zcy5qG7gEIqtyQ8I2/CLF4ol/NoHoT
+LlelA8osPdFx5Ht5qy2CDuaRvmEs4oCAvitJ/j5jRrVg7mLypfFEcub1tnrLJU1Y
+sNhx0B10MyWEGZR78Dl7zVZN5fgLaW45e52wItoq9++taVPHES7/3Oxb8O2xLhDo
+7PT2Sz+wabaIptzlaMM/7S+2u8wm8cn+UOVz4MYV5Cl2cddoKZ5SNUNQ1y6jNUtX
+9Y5rqNhkytlMoJeeL6dZqwroRwCsJiDcbf2MHwIDAQABAoIBAQCKzTivXalEWh/F
+hduXauaTDf1Lpg8GE1wLuRB1hgyxVzNCR0geT6+h5QrIk4Tf3XIrD5U3ayJpO0SQ
+xuYryTYsdTcEEa8RhxwYbMrYiIovr+RAlRaLy1kvnXp2x07vBHJ/AMwC8OPUn7Ui
+jBfA/8FIRsmWm2/M2rt0w3mAPg2o35JG7mv7ub0eqUUuUr2oGs3eMjKUpJWNJvFJ
+s7zu7rYvi0J45vHuD5qa6gxufBo2kcYu9BJW8JNH+TB76m6JvS8hZQSTL5bJXNl3
+GcUskRwVvk/msG0KbBBfXb7Nnt47NxfmMEkySlZxFlJnQktoYCmA3wtWfg6+mqc+
+5+qRASTRAoGBAPwX4KbVOeuideGQMwj/CrnQiZcAkCnStp37ujOR/QJnM7mX6BxC
+sRClyY7AYsoQ3cOXZPS/PZr/LgnktybkseyRZAYv41rR/1UVQ9hDCkuqnyCgf+xa
+5fYNSSy2UTskx56dUAEz+0pzJsJbL3lOwtC0Rk6QBr4oq4fx4xta7LJFAoGBAN80
+z4LlOJqWrCOINpXO4nLUaDjIn1SyOWIkUo7MGXcmK7gZ3Or5Eynzwux2dhfQxXXa
+szhc9Oo+l/m/PHTSVsLckSgME/IoQLi/d+6qY4jdDSdWV0i6A+YbmhptbgviynbV
+w1mcQNfs7vAIIsBJ1GUpFOJYSGjWSSE5rWvOOJ0TAoGBALXO/q0zgIdJbpzT44qs
+bW7fUCvAMziGiD/eCUciFYfDKFHElZi0HIE2H+w9IcI7ccSbDitZNTPwr6Jg+hop
+u4wyuyGfLegVJYGWSYzRpL43enYMatXqJIlUwZ5miqUN/I2PRODpPWVPMPfgzZc+
+T1A3g7ErPEGukS8FK1ZSN/zFAoGADMkPoeXTajd7QMXKqqYhHobAOZB0X/udgdum
+xvs18jdDhdYla2g9CsglwDnA5fhVdzzBy1a3yLsxJWMo6WArDBpqTiry8YoQuwRs
+sEUeUnanDDvL4CSXmJS4LQ9boF6rTkdMW1Ox+yxdO26b3vvbqLfDtHtuGmM76SVO
+o8A6SfUCgYAVr3O9EdY8ZGJseLcXhFqK2LhdFuuxYWh5AXmUB46lzHmnyxqcH/SA
+eNKJe7ZdyR6zeAHn+uEcByrjKCuTnwxx9QEGUdO76tdHvbw9DzFe3fxF+YJXexEy
+qsWtkpAdKS9s3UKrzeo1QdNJVrv+GflUnHbUXbU3eccPTtkMpVKdmw==
+-----END RSA PRIVATE KEY-----
+clear
+ssh-agent add -----BEGIN RSA PRIVATE KEY-----MIIEpAIBAAKCAQEA28zN4yog2JGcge8O4/6NcPD+6Lm8KAxia6/cEJ4rOL8kC/29DmL7kYc14x1kEWI6hQCuoKgDlwb55rWty/Zcy5qG7gEIqtyQ8I2/CLF4ol/NoHoTLlelA8osPdFx5Ht5qy2CDuaRvmEs4oCAvitJ/j5jRrVg7mLypfFEcub1tnrLJU1YsNhx0B10MyWEGZR78Dl7zVZN5fgLaW45e52wItoq9++taVPHES7/3Oxb8O2xLhDo7PT2Sz+wabaIptzlaMM/7S+2u8wm8cn+UOVz4MYV5Cl2cddoKZ5SNUNQ1y6jNUtX9Y5rqNhkytlMoJeeL6dZqwroRwCsJiDcbf2MHwIDAQABAoIBAQCKzTivXalEWh/FhduXauaTDf1Lpg8GE1wLuRB1hgyxVzNCR0geT6+h5QrIk4Tf3XIrD5U3ayJpO0SQxuYryTYsdTcEEa8RhxwYbMrYiIovr+RAlRaLy1kvnXp2x07vBHJ/AMwC8OPUn7UijBfA/8FIRsmWm2/M2rt0w3mAPg2o35JG7mv7ub0eqUUuUr2oGs3eMjKUpJWNJvFJs7zu7rYvi0J45vHuD5qa6gxufBo2kcYu9BJW8JNH+TB76m6JvS8hZQSTL5bJXNl3GcUskRwVvk/msG0KbBBfXb7Nnt47NxfmMEkySlZxFlJnQktoYCmA3wtWfg6+mqc+5+qRASTRAoGBAPwX4KbVOeuideGQMwj/CrnQiZcAkCnStp37ujOR/QJnM7mX6BxCsRClyY7AYsoQ3cOXZPS/PZr/LgnktybkseyRZAYv41rR/1UVQ9hDCkuqnyCgf+xa5fYNSSy2UTskx56dUAEz+0pzJsJbL3lOwtC0Rk6QBr4oq4fx4xta7LJFAoGBAN80z4LlOJqWrCOINpXO4nLUaDjIn1SyOWIkUo7MGXcmK7gZ3Or5Eynzwux2dhfQxXXaszhc9Oo+l/m/PHTSVsLckSgME/IoQLi/d+6qY4jdDSdWV0i6A+YbmhptbgviynbVw1mcQNfs7vAIIsBJ1GUpFOJYSGjWSSE5rWvOOJ0TAoGBALXO/q0zgIdJbpzT44qsbW7fUCvAMziGiD/eCUciFYfDKFHElZi0HIE2H+w9IcI7ccSbDitZNTPwr6Jg+hopu4wyuyGfLegVJYGWSYzRpL43enYMatXqJIlUwZ5miqUN/I2PRODpPWVPMPfgzZc+T1A3g7ErPEGukS8FK1ZSN/zFAoGADMkPoeXTajd7QMXKqqYhHobAOZB0X/udgdumxvs18jdDhdYla2g9CsglwDnA5fhVdzzBy1a3yLsxJWMo6WArDBpqTiry8YoQuwRssEUeUnanDDvL4CSXmJS4LQ9boF6rTkdMW1Ox+yxdO26b3vvbqLfDtHtuGmM76SVOo8A6SfUCgYAVr3O9EdY8ZGJseLcXhFqK2LhdFuuxYWh5AXmUB46lzHmnyxqcH/SAeNKJe7ZdyR6zeAHn+uEcByrjKCuTnwxx9QEGUdO76tdHvbw9DzFe3fxF+YJXexEyqsWtkpAdKS9s3UKrzeo1QdNJVrv+GflUnHbUXbU3eccPTtkMpVKdmw==-----END RSA PRIVATE KEY-----
+clear
+ansible -m ping ansiblevm
+ansible -m ping ansiblevm -K
+ansible -m ping ansiblevm -b -K
+clear
+ansible -m ping ansiblevm -u ansible
+ansible -m ping krishna
+ansible -m ping krishna -u krisnaprashatt.g
+ansible -m ping krishna -u superuser
+ping 192.168.1.152
+ansible -m ping krishna -b -u krisnaprashatt.g
+ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
+ansible -m ping krishna -b -u ansible
+ansible -m ping krishna -b -u ansible -K
+ansible -m ping 192.168.1.152 -u ansible
+ansible -m ping 192.168.1.152 -u ansible -K
+ansible -m ping krishna -u ansible -K
+ansible -m ping krishna -b -u ansible -K
+clear
+ansible -m ping krishna -u ansible -Kclear
+ansible -m ping krishna -u ansible -K
+ansible --version
+clear
+cd
+clear
+cd Desktop/
+ls
+Testapp/
+cd Testapp/
+ls
+cd ..
+cd BIt/
+ls
+git init
+git remote add origin git clone https://Appzillon@bitbucket.org/Appzillon/appzillon-test.git
+git remote add origin https://Appzillon@bitbucket.org/Appzillon/appzillon-test.git
+git remote remove origin https://Appzillon@bitbucket.org/Appzillon/appzillon-test.git
+cd Testapp/
+ld
+ls
+git add .
+git add -all
+cd appzillon-test/
+ls
+git status
+git add .
+git commit -m "First commit"
+git push origin master
+ls
+git log
+sudo dpkg -i remove appzillon
+sudo dpkg  --remove appzillon
+cd 
+cd /home/i-exceed.com/prudhvi.kumar/
+ls
+sudo dpkg -i Appzillon-3.5.5.deb 
+sudo rm -r .ssh/
+ssh-keygen
+cat ~/.ssh/id_rsa.pub | xclip -sel clip
+sudo apt-get install xclip
+cat ~/.ssh/id_rsa.pub | xclip -sel clip
+cd .ssh/
+ssh-add ~/.ssh/id_rsa.pub
+eval `ssh-agent`
+ssh-add ~/.ssh/id_rsa
+cat id_rsa
+cat id_rsa.pub 
+clear
+ssh-agent add ~/.ssh/id_rsa
+cd ~./
+cd ~/
+ls
+ll
+ssh-agent add ~/.ssh/id_rsa
+cd .ssh/
+ls
+ssh-agent add ~/.ssh/id_rsa
+ssh-agent add id_rsa
+ssh-agent bash
+cd
+l
+mkdir new
+cd ne
+cd new/
+ls
+mvn archetype:generate -DgroupId=com.javatpoint -DartifactId=CubeGenerator -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+ls
+cd CubeGenerator/
+ls
+cd src/
+ls
+cd main/
+ls
+cd webapp/
+ls
+cat index.jsp 
+cd ..
+ls
+cat pom.xml 
+mvn clean
+mvn compile
+mvn package
+cat pom.xml 
+java -classpath target\CubeGenerator.war;.; com.javatpoint.App 
+java -classpath /target/CubeGenerator.war;.; com.javatpoint.App 
+mvn sonar:sonar
+clear
+mvn validate
+clear
+mvn test
+clear
+docker ps
+docker ps -a
+docker start 7b1b73dc6711
+docker exec -it 7b1b73dc6711 /bin/bash
+cd /etc/ansible/
+sudo gedit hosts
+ansible -m ping 172.17.0.2
+ansible -m ping 172.17.0.2 -u nexus
+ansible -m ping 172.17.0.2 -u root
+ansible -m ping 172.17.0.2 -u root -K
+ansible -m ping 172.17.0.2 -u root
+ssh root@172.17.0.2
+ansible -m ping 172.17.0.2 -u nexus
+ansible -m ping 192.168.1.41
+ansible -m ping 192.168.1.41 -u prudhvi.kumar
+ansible -m ping ansiblevm
+sudo gedit hosts
+ansible -m ping ansiblevm
+sudo gedit hosts
+clear
+ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73 -u superuser
+ansible -m ping 192.168.1.73 -u prudhvi.kumar
+ansible -m ping 192.168.1.73 -u superuser
+ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73 superuser
+ansible -m ping 192.168.1.73 -u superuser
+ansible -m ping 192.168.1.73 -u sreelakshmi
+ansible -m ping 192.168.1.73 -u sreelakshmi.
+ansible -m ping 192.168.1.73 -u sreelakshmi.a
+clear
+sudo ssh prudhvi.kumar@192.168.1.73
+ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73 -u prudhvi.kumar
+sudo ssh prudhvi.kumar@192.168.1.73
+ansible -m ping 192.168.1.73 -u prudhvi.kumar
+ansible -m ping 192.168.1.73 -u superuser
+sudo gedit hosts
+ansible -m ping 192.168.1.73
+ansible system2 -m ping
+ansible system2 -m ping -u sreelakshmi.a
+clear
+sudo gedit hosts
+ansible 192.168.1.73 -m ping -u sreelakshmi.a
+cler
+clear
+ansible 192.168.1.73 -m ping -u superuser
+sudo ssh prudhvi.kumar@192.168.1.73
+clear
+ansible -m ping ansiblevm
+ansible-playbook ansiblevm
+ls
+cd 
+cd Documents/
+ls
+cd ansible-playbooks/
+ls
+cd ansible-examples/
+ls
+cd Practise/
+ls
+clear
+ansible-playbook firstplay.yml 
+clear
+ansible-playbook firstplay.yml 
+clear
+ansible-playbook firstplay.yml 
+ansible-playbook firstplay.yml -K
+ansible-playbook firstplay.yml
+ansible-playbook firstplay.yml -K
+clear
+ansible-playbook firstplay.yml
+ansible-playbook firstplay.yml -b -K
+clear
+ansible-playbook firstplay.yml -b -K
+clear
+ansible-playbook firstplay.yml -b -K
+ansible -m ping localhost
+ansible -m ping 192.168.1.73
+ping 192.168.1.73
+clear
+ansible -m ping 192.168.1.153
+ansible ---
+- hosts: ansiblevm
+ansible 192.168.1.153 --ask-pass --ssh-extra-args='-o "PubkeyAuthentication=no"' -m ping
+ansible -m ping 192.168.1.153 -u prudhvi.kumar
+ansible -m ping 192.168.1.153 -u prudhvi.kumar -K
+ping 192.168.1.153
+ping 192.168.1.152
+cleear
+clear
+ansible -m ping 192.168.1.152
+ansible -m ping 192.168.1.152 -K
+sudo ssh prudhvi.kumar@192.168.1.152
+clear
+ansible -m ping 192.168.1.152 -K
+ansible -m ping 192.168.1.152
+ansible -m ping 192.168.1.152 -b
+ansible -m ping 192.168.1.152 -b --ask-pass
+sudo ssh prudhvi.kumar@192.168.1.152
+clear
+ansible -m ping 192.168.1.152 -b --ask-pass
+ansible --ask-pass --ssh-extra-args='-o "PubkeyAuthentication=no"' 192.168.1.152 -m ping
+ansible -i ./hosts remote -b --become-user=root all \
+ansible ansiblevm -m ping
+ansible ansiblevm -m ping -K
+ansible ansiblevm -m ping
+ansible -m ping ansiblevm
+ansible -m ping ansiblevm -u prudhvi
+ansible -m ping ansiblevm -u prudhvi -K
+ansible -m ping ansiblevm
+ssh-agent bash
+ansible webservers -m git -a "repo=https://github.com/prudhvikumar789/test.git dest=/home/one/ version=HEAD"
+ansible webservers -m git -a "repo=https://github.com/prudhvikumar789/test.git dest=/home/one/ version=HEAD" -b -K
+ansible webservers -m git -a "repo=https://github.com/prudhvikumar789/test.git dest=/home/one/ version=HEAD" -K
+ansible webservers -m git -a "repo=https://github.com/prudhvikumar789/test.git dest=/home/one/ version=HEAD" -b -K
+ansible webservers -m git -a "repo=https://github.com/prudhvikumar789/test.git dest=/home/ansible/one/ version=HEAD" -b -K
+ansible webservers -m -a 'sudo apt-get install apache2' -b -K
+clear
+ansible webservers -m apt -a 'sudo apt-get install apache2' -b -K
+ansible webservers -a 'sudo apt-get install apache2' -b -K
+ansible webservers -a 'sudo apt-get -Y install apache2' -b -K
+ansible webservers -a 'sudo apt-get  install apache2 -y' -b -K
+ansible webservers -m service -a "name=apache2 state=stop"
+ansible webservers -m service -a "name=apache2 state=stopped"
+ansible webservers -m service -a "name=apache2 state=stopped" -b -K
+ansible webservers -m service -a "name=apache2 state=started" -b -K
+ansible webservers -m service -a "name=apache2 state=stopped" -b -K
+clear
+ansible all -B 3600 -P 0 -a "/usr/bin/long_running_operation --do-stuff"
+ansible webservers -a 'sudo apt-get update' -b -K
+ansible ansiblevm -m async_status"
+ansible ansiblevm -m async_status
+ansible all -B 1800 -P 60 -a "/usr/bin/long_running_operation --do-stuff"
+ansible all -B 1800 -P 05 -a "ls"
+ansible all -m setup
+ansible all -m setup --tree /tmp/facts
+ansible all -m setup -a 'filter=ansible_*_mb'
+ansible all -m setup -a 'filter=ansible_eth[0-2]'
+ansible all -m setup -a 'filter=ansible_eth*'
+ansible all -m setup -a 'filter=*_*eth*'
+ansible webservers -a 'sudo apt-get update' --ask-su-pass
+ansible webservers -a 'sudo apt-get update' -U
+ansible webservers -a 'sudo apt-get update' -U ansible
+clear
+view
+cd /home/i-exceed.com/prudhvi.kumar/Documents/
+ls
+ll
+cd ansible-playbooks/ansible-examples/
+ls
+cd Practise/
+ls
+ansible-playbooks firstplay.yml 
+ansible-playbooks firstplay.yml -f 10
+pwd
+cd /etc/ansible/
+ansible-playbook /home/i-exceed.com/prudhvi.kumar/Documents/ansible-playbooks/ansible-examples/Practise/firstplay.yml -f 10
+ansible-playbook /home/i-exceed.com/prudhvi.kumar/Documents/ansible-playbooks/ansible-examples/Practise/firstplay.yml -f 10 -K
+ansible-playbook /home/i-exceed.com/prudhvi.kumar/Documents/ansible-playbooks/ansible-examples/Practise/firstplay.yml -f 10
+sudo gitlab-ctl stop
+cd /etc/ansible/ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73
+ansible -m ping 192.168.1.73 -u superuser
+ansible -m ping 192.168.1.73
+sudo ssh ansible@192.168.1.104
+sudo gitlab-ctl stop
+sudo service apache2 status

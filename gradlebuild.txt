@@ -1,0 +1,50 @@
+
+
+allprojects  {
+  apply plugin: 'java'
+  apply plugin: 'maven'
+  apply plugin: 'war'
+
+  group = 'com.iexceed.apz'
+version = '3.0'
+}
+
+subprojects {
+  apply plugin: 'java'
+  apply plugin: 'maven'
+  apply plugin: 'war'
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+
+  
+  repositories {
+    mavenLocal()
+    
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+
+  
+  
+  
+}
+
+task zipwar(type: Copy) {
+    def warFileName = tasks['war'].archiveName
+    def zipFile = file('Jars/libs/appzillonstudio-commandbuild-3.0.war')
+    def outputDir = file('Jars/')
+      from zipTree(zipFile)
+    into outputDir
+    include 'WEB-INF/lib/*.jar'
+}
+task jarcopy(dependsOn: zipwar) << {
+    copy {
+        from ('Jars/WEB-INF/lib/')
+        into ('ClientJars')
+    }
+}
+task delete(dependsOn: jarcopy, type: Delete) {
+  delete 'Jars'
+  followSymlinks = false
+}
+
+project.buildDir = '${basedir}/../../Jars'

@@ -1,0 +1,12 @@
+f82a449d9830e7069cdd3ebcd744e640048425cb
+
+sonar Token:
+59a5be34a5e34554512a6a3bb0e3c1e8092b47c7
+
+GITHUB Token:
+ff56ab7f221ab5638a2bfa98b092dae4bac240d9
+
+Sonar:
+mvn sonar:sonar \
+  -Dsonar.host.url=http://192.168.1.221:9000 \
+  -Dsonar.login=59a5be34a5e34554512a6a3bb0e3c1e8092b47c7

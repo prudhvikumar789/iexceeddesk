@@ -1,0 +1,23 @@
+Reg-Testing app:
+
+Username : admin
+Password : admin
+
+Path :	/home/i-exceed/superuser/AppzAutomationTesting/
+
+URL  : http://192.168.1.6:8081/Testing
+
+Mysql Database:
+
+Username : appzillonci
+password : Password@123
+
+$ mysql -u appzillonci -pPassword@123 -h localhost appzillonci
+
+To run Static scripts:
+----------------------------
+Path :	/home/superuser/AppzAutomationTesting/Project/BaseApp/
+
+$ source /home/superuser/AppzAutomationTesting/Project/BaseApp/bin/Server/Database/MySql/Appzillon-Setup.sql;
+
+$ source /home/superuser/AppzAutomationTesting/Project/BaseApp/bin/Server/Database/MySql/Staticdata.sql;

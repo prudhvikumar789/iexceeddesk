@@ -1,0 +1,1000 @@
+ 1050  sudo docker run --detach --name gitlab --hostname gitlab.example.com --publish 30080:30080          --publish 30022:22 --env GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.example.com:30080'; gitlab_rails['gitlab_shell_ssh_port']=30022;" gitlab1/gitlab-ce:latest
+ 1051  sudo docker ps -l
+ 1052  docker kill e2e8b577376f
+ 1053  sudo docker kill e2e8b577376f
+ 1054  sudo docker stop e2e8b577376f
+ 1055  sudo docker kill e2e8b577376
+ 1056  sudo docker ps -l
+ 1057  sudo docker run --detach --name gitlabnew --hostname gitlabi-exceed.com --publish 30080:30080          --publish 30022:22 --env GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.example.com:30080'; gitlab_rails['gitlab_shell_ssh_port']=30022;" gitlab/gitlab-ce:latest
+ 1058  sudo docker ps -l
+ 1059  sudo docker stop 68320f433f84
+ 1060  sudo docker kill 68320f433f84
+ 1061  sudo docker rmi 68320f433f84
+ 1062  sudo docker rm 68320f433f84
+ 1063  sudo docker ps -l
+ 1064  cd /tmp
+ 1065  ls
+ 1066  sudo find /tmp -type f -atime +10 -delete
+ 1067  ls
+ 1068  sudo apt-get install ca-certificates curl openssh-server postfix
+ 1069  sudo dpkg --configure -a
+ 1070  sudo apt-get install ca-certificates curl openssh-server postfix
+ 1071  sudo ufw status
+ 1072  sudo gedit /etc/gitlab/gitlab.rb
+ 1073  sudo useradd -G gitlab-www www-data
+ 1074  sudo useradd -G gitlab-www:www-data
+ 1075  sudo useradd -G gitlab-www www-data
+ 1076  cd /etc/apache2/sites-available/ 
+ 1077  ls
+ 1078  sudo gedit gitlab
+ 1079  sudo a2ensite gitlab
+ 1080  ls
+ 1081  sudo a2enmod proxy
+ 1082  sudo a2enmod proxy_http
+ 1083  service apache2 restart
+ 1084  sudo service apache2 restart
+ 1085  ls
+ 1086  sudo gedit 000-default.conf 
+ 1087  sudo a2enmod proxy
+ 1088  sudo a2enmod proxy_http
+ 1089  sudo service apache2 restart
+ 1090  sudo gedit 000-default.conf 
+ 1091  sudo service apache2 restart
+ 1092  sudo gedit 000-default.conf 
+ 1093  sudo service apache2 restart
+ 1094  sudo gedit 000-default.conf 
+ 1095  sudo service apache2 restart
+ 1096  sudo a2ensite gitlab
+ 1097  sudo gedit 000-default.conf 
+ 1098  sudo gedit gitlab
+ 1099  cd ..
+ 1100  ls
+ 1101  sudo gedit apache2.conf 
+ 1102  ls
+ 1103  sudo gedit ports.conf 
+ 1104  sudo a2ensite gitlab
+ 1105  sudo gedit /etc/gitlab/gitlab.rb
+ 1106  sudo a2ensite gitlab
+ 1107  sudo gitlab-ctl reconfigure
+ 1108  sudo a2ensite gitlab
+ 1109  sudo gedit /etc/gitlab/gitlab.rb
+ 1110  sudo gedit ports.conf 
+ 1111  sudo gedit apache2.conf 
+ 1112  cd sites-available/
+ 1113  ls
+ 1114  sudo gedit 000-default.conf 
+ 1115  sudo gedit gitlab
+ 1116  sudo gitlab-ctl reconfigure
+ 1117  sudo a2ensite gitlab
+ 1118  sudo service apache2 restart
+ 1119  cd /etc/gitlab/gitlab.rb
+ 1120  cd /etc/gitlab/
+ 1121  ls
+ 1122  sudo gedit gitlab.rb
+ 1123  ls
+ 1124  cd /etc/apache2/sites-available/
+ 1125  ls
+ 1126  mv gitlab gitlab.conf
+ 1127  sudo mv gitlab gitlab.conf
+ 1128  sudo gedit gitlab.conf
+ 1129  cd /etc/apache2/
+ 1130  sudo gedit ports.conf
+ 1131  sudo service apache2 restart
+ 1132  sudo gitlab-ctl reconfigure
+ 1133  ls
+ 1134  sudo gedit apache2.conf 
+ 1135  sudo gedit ports.conf
+ 1136  sudo gedit /etc/apache2/sites-enabled/000-default.conf
+ 1137  sudo gedit /etc/apache2/sites-available/ gitlab.conf
+ 1138  ls
+ 1139  cd sites-available/
+ 1140  ls
+ 1141  sudo rm 000-default.conf~
+ 1142  sudo rm gitlab~
+ 1143  sudo rm gitlab.conf~
+ 1144  ls
+ 1145  sudo gedit gitlab.conf 
+ 1146  sudo rm gitlab.conf
+ 1147  touch gitlab
+ 1148  sudo touch gitlab
+ 1149  ls
+ 1150  sudo rm gitlab.conf~
+ 1151  ls
+ 1152  cd /etc/gitlab/
+ 1153  ls
+ 1154  sudo gedit gitlab.rb
+ 1155  sudo service apache2 restart
+ 1156  sudo gitlab-ctl reconfigure
+ 1157  ls
+ 1158  sudo gedit gitlab.rb
+ 1159  ls
+ 1160  cd /etc/apache2/sites-available/
+ 1161  ls
+ 1162  sudo gedit gitlab 
+ 1163  ls
+ 1164  sudo gedit gitlab 
+ 1165  cd /etc/gitlab/
+ 1166  ls
+ 1167  sudo gedit gitlab.rb
+ 1168  sudo service apache2 restart
+ 1169  cd /etc/apache2/
+ 1170  sudo gedit apache2.conf
+ 1171  ls
+ 1172  sudo gedit ports.conf
+ 1173  sudo service apache2 restart
+ 1174  sudo gitlab-ctl reconfigure
+ 1175  sudo gedit ports.conf
+ 1176  cd /etc/apache2/sites-available/
+ 1177  ls
+ 1178  sudo gedit gitlab
+ 1179  sudo gedit 000-default.conf 
+ 1180  cd /etc/gitlab/
+ 1181  sudo gedit gitlab.rb
+ 1182  sudo service apache2 restart
+ 1183  sudo service apache2 status
+ 1184  sudo gitlab-ctl reconfigure
+ 1185  ls
+ 1186  which docker
+ 1187  cd ..
+ 1188  suudo gedit apache2.conf 
+ 1189  sudo gedit apache2.conf 
+ 1190  cd
+ 1191  sudo apt-get install docker
+ 1192  docker --version
+ 1193  which --version
+ 1194  which docker
+ 1195  clear
+ 1196  docker status
+ 1197  clear
+ 1198  sudo apt-get remove docker
+ 1199  udo apt-get install docker-ce
+ 1200  sudo apt-get remove docker docker-engine docker.io
+ 1201  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+ 1202  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1203  sudo apt-key fingerprint 0EBFCD88
+ 1204  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1205     $(lsb_release -cs) \
+ 1206     stable"
+ 1207  sudo apt-get update
+ 1208  sudo apt-get install docker-ce
+ 1209  sudo docker run hello-world
+ 1210  sudo docker docker pull gitlab/gitlab-ce
+ 1211  docker pull gitlab/gitlab-ce
+ 1212  sudo docker pull gitlab/gitlab-ce
+ 1213  sudo docker image
+ 1214  sudo docker images
+ 1215  sudo docker run --detach     --hostname gitlab.example.com     --publish 443:443 --publish 80:80 --publish 22:22     --name gitlab     --restart always     --volume /srv/gitlab/config:/etc/gitlab     --volume /srv/gitlab/logs:/var/log/gitlab     --volume /srv/gitlab/data:/var/opt/gitlab \
+ 1216  sudo docker run --detach     --hostname gitlabi-exceed.com     --publish 443:443 --publish 83:83 --publish 22:22     --name gitlab     --restart always     --volume /srv/gitlab/config:/etc/gitlab     --volume /srv/gitlab/logs:/var/log/gitlab     --volume /srv/gitlab/data:/var/opt/gitlab     gitlab/gitlab-ce:latest
+ 1217  sudo docker images
+ 1218  clear
+ 1219  docker image
+ 1220  docker image history
+ 1221  ls
+ 1222  docker image ls
+ 1223  sudo docker run --detach --name gitlab --hostname gitlab.example.com --publish 30080:30080          --publish 30022:22 --env GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.example.com:30080'; gitlab_rails['gitlab_shell_ssh_port']=30022;" gitlab/gitlab-ce:9.1.0-ce.0
+ 1224  sudo docker run --detach --name gitlabnew --hostname gitlab.example.com --publish 30080:30080          --publish 30022:22 --env GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.example.com:30080'; gitlab_rails['gitlab_shell_ssh_port']=30022;" gitlab/gitlab-ce:9.1.0-ce.0
+ 1225  docker image ps -l
+ 1226  sudo 
+ 1227  sudo docker ps -l
+ 1228  sudo docker stop cc0335d593b4
+ 1229  sudo docker rm cc
+ 1230  sudo docker ps -l
+ 1231  sudo docker images
+ 1232  sudo docker rm e2e8b577376f
+ 1233  sudo docker ps -l
+ 1234  sudo docker rm 04d462db0de6
+ 1235  sudo docker ps -l
+ 1236  cd /var/lib/docker/volumes/
+ 1237  sudo cd /var/lib/docker/volumes/
+ 1238  sudo cd /var/lib/docker
+ 1239  sudo cd /var/lib/
+ 1240  sudo cd /var/
+ 1241  cd
+ 1242  pwd
+ 1243  sudo cd /var/lib/docker
+ 1244  cd /var/
+ 1245  ls
+ 1246  cd lib/
+ 1247  ls
+ 1248  cd /docker/
+ 1249  ll
+ 1250  sudo cd docker/
+ 1251  cd docker/
+ 1252  ls
+ 1253  sudo ls
+ 1254  sudo cd volumes
+ 1255  cd volumes
+ 1256  sudo cd volumes
+ 1257  ll
+ 1258  sudo ll
+ 1259  ls
+ 1260  sudo vi volumes
+ 1261  ls
+ 1262  ls -la
+ 1263  sudo ls -la
+ 1264  ll
+ 1265  sudo ll
+ 1266  sudo ls
+ 1267  sudo cd volumes
+ 1268  cd volumes
+ 1269  su superuser
+ 1270  ls
+ 1271  which gitlab
+ 1272  gitlab --version
+ 1273  locate gitlab
+ 1274  sudo locate gitlab
+ 1275  ls
+ 1276  lsl-la
+ 1277  service apache2 status
+ 1278  service apache2 stop
+ 1279  service apache2 status
+ 1280  sudo /etc/init.d/apache2 stop
+ 1281  service apache2 status
+ 1282  cd /etc/gitlab/
+ 1283  ls
+ 1284  sudo gedit gitlab.rb
+ 1285  sudo gitlab-ctl reconfigure
+ 1286  cd
+ 1287  cd Desktop/
+ 1288  ls
+ 1289  cd gittest/
+ 1290  ls
+ 1291  git clone http://192.168.5.200/root/App.git
+ 1292  sudo apt-get install git
+ 1293  git clone http://192.168.5.200/root/App.git
+ 1294  ls
+ 1295  cd App/
+ 1296  ls
+ 1297  cat README.md 
+ 1298  history >His
+ 1299  git status
+ 1300  git add *
+ 1301  git status
+ 1302  git commit -m "New His file"
+ 1303  git push origin master
+ 1304  ls
+ 1305  cd 
+ 1306  cd /var/www
+ 1307  ls
+ 1308  cd example.com/
+ 1309  ls
+ 1310  cd git/
+ 1311  ls
+ 1312  cd Appzillon.git/
+ 1313  pwd
+ 1314  cd /var/opt
+ 1315  ls
+ 1316  cd gitlab/
+ 1317  ls
+ 1318  cd git-data/
+ 1319  ls
+ 1320  cd git-data/
+ 1321  sudo cd git-data/
+ 1322  //
+ 1323  ll
+ 1324  cd git-data/
+ 1325  sudo cd git-data/
+ 1326  sudo cd git-data/cd ..
+ 1327  cd ..
+ 1328  cd gitlab/git-data/
+ 1329  sudo cd gitlab/git-data/
+ 1330  cd
+ 1331  cd Desktop/gittest/
+ 1332  ls
+ 1333  cd App/
+ 1334  ls
+ 1335  git branch Development
+ 1336  git branch
+ 1337  git checkout Development
+ 1338  git branch
+ 1339  ls
+ 1340  touch new
+ 1341  git add *
+ 1342  git status
+ 1343  git commit -m "New file"
+ 1344  git push 
+ 1345  git push
+ 1346  git checkout master
+ 1347  ls
+ 1348  git merge Development 
+ 1349  ls
+ 1350  git push
+ 1351  git log
+ 1352  git checkout Development 
+ 1353  ls
+ 1354  touch two.txt
+ 1355  git push -u origin Development 
+ 1356  git add *
+ 1357  git status
+ 1358  git commit -m "adding two.txt"
+ 1359  git push origin Development 
+ 1360  git checkout master 
+ 1361  git merge Development 
+ 1362  cd
+ 1363  cd /etc/gitlab/
+ 1364  ls
+ 1365  sudo gedit gitlab.rb
+ 1366  sudo gedit /etc/gitlab/gitlab.rb
+ 1367  sudo gedit gitlab.rb
+ 1368  sudo gitlab-ctl reconfigure
+ 1369  sudo gedit gitlab.rb
+ 1370  cd /etc/
+ 1371  ls
+ 1372  cd /gitlab/
+ 1373  sudo cd /gitlab/
+ 1374  cd gitlab/
+ 1375  ls
+ 1376  sudo gedit gitlab.rb
+ 1377  sudo gitlab-ctl reconfigure
+ 1378  sudo gedit gitlab.rb
+ 1379  sudo gitlab-ctl reconfigure
+ 1380  cd ..
+ 1381  ls
+ 1382  cd Appzillon3.6.0.S1/
+ 1383  ls
+ 1384  cd
+ 1385  cd Desktop/
+ 1386  ls
+ 1387  cd gittest/
+ 1388  ls
+ 1389  cd App/
+ 1390  ls
+ 1391  git clone http://192.168.5.200/root/App.git
+ 1392  cd ..
+ 1393  ls
+ 1394  sudo rm -r gittest/
+ 1395  ls
+ 1396  git clone http://192.168.5.200/root/Appzillon3.6.0.git
+ 1397  ls
+ 1398  cd Appzillon3.6.0/
+ 1399  ls
+ 1400  touch New.txt
+ 1401  ls
+ 1402  git status
+ 1403  git add *
+ 1404  ls
+ 1405  git commit -m "adding new file"
+ 1406  git push
+ 1407  sudo gedit README.md 
+ 1408  git status
+ 1409  git add *
+ 1410  git commit -m "added Appzillon text to READ file"
+ 1411  git push
+ 1412  sudo gitlab-ctl reconfigure
+ 1413  sudo gitlab-ctl status
+ 1414  sudo gitlab-ctl stop
+ 1415  sudo gitlab-ctl start
+ 1416  ifconfig
+ 1417  sudo gitlab-ctl reconfigure
+ 1418  cd /etc/gitlab/
+ 1419  ls
+ 1420  sudo gedit gitlab.rb
+ 1421  cd
+ 1422  cd Desktop/
+ 1423  ls
+ 1424  sudo rm -r Appzillon3.6.0/
+ 1425  ls
+ 1426  git clone http://192.168.5.200/root/Appzillon3.6.0.git
+ 1427  cd 
+ 1428  sudo gedit .gitconfig
+ 1429  git clone http://192.168.5.200/root/Appzillon3.6.0.git
+ 1430  ld
+ 1431  ls
+ 1432  cd Appzillon3.6.0/
+ 1433  ls
+ 1434  git branch
+ 1435  git branch Development
+ 1436  git push -u origin
+ 1437  git push -u origin Development 
+ 1438  ls
+ 1439  git branch
+ 1440  git checkout master
+ 1441  git checkout Development 
+ 1442  ls
+ 1443  git branch
+ 1444  touch New.txt
+ 1445  ls
+ 1446  git add *
+ 1447  git status
+ 1448  git commit -m "added New.txt file"
+ 1449  git push origin Development 
+ 1450  git status
+ 1451  git log
+ 1452  git pull
+ 1453  git log
+ 1454  git diff c895f5d691792 c895f5d691792
+ 1455  sudo git diff c895f5d691792 c895f5d691792
+ 1456  sudo git log diff c895f5d691792 c895f5d691792
+ 1457  git diff c895f5d691792 d723668a4f1f0e
+ 1458  git diff c895f5d691792 c895f5d691792
+ 1459  ld
+ 1460  ls
+ 1461  cd ..
+ 1462  ls
+ 1463  git svn clone --stdlayout --no-metadata -A users.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1464  sudo add-apt-repository ppa:git-core/ppa
+ 1465  apt-get update
+ 1466  sudo apt-get update
+ 1467  sudo apt-get install git-svn
+ 1468  git svn clone --stdlayout --no-metadata -A users.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1469  git svn clone --stdlayout --no-metadata -A http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1470  git svn clone --stdlayout --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1471  git svn clone http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1472  sudo mkdir prudhvi
+ 1473  cd pr
+ 1474  cd prudhvi/
+ 1475  ls
+ 1476  git svn clone http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1477  sudo git svn clone http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1478  ls
+ 1479  cd Studio/
+ 1480  ls
+ 1481  git log
+ 1482  ls
+ 1483  git init
+ 1484  sudo git init
+ 1485  ls
+ 1486  cd ..
+ 1487  ls
+ 1488  git clone http://192.168.5.200/root/Appzillon3.6.0.S1.git
+ 1489  sudo git clone http://192.168.5.200/root/Appzillon3.6.0.S1.git
+ 1490  ls
+ 1491  cd Appzillon3.6.0.S1/
+ 1492  pwd
+ 1493  cd ..
+ 1494  cd Studio/
+ 1495  ls
+ 1496  cp Appzillon.sql /home/i-exceed.com/prudhvi.kumar/prudhvi/Appzillon3.6.0.S1
+ 1497  sudo cp Appzillon.sql /home/i-exceed.com/prudhvi.kumar/prudhvi/Appzillon3.6.0.S1
+ 1498  sudo cp appzillonstudio-commandbuild/ /home/i-exceed.com/prudhvi.kumar/prudhvi/Appzillon3.6.0.S1
+ 1499  sudo cp appzillonstudio-core/ /home/i-exceed.com/prudhvi.kumar/prudhvi/Appzillon3.6.0.S1
+ 1500  ls
+ 1501  cd ..
+ 1502  ls
+ 1503  cd Studio/ /home/i-exceed.com/prudhvi.kumar/Desktop/
+ 1504  pwd
+ 1505  ls
+ 1506  cd ..
+ 1507  ls
+ 1508  cp Studio/ /home/i-exceed.com/prudhvi.kumar/Desktop/
+ 1509  cd
+ 1510  vi .gitconfig
+ 1511  cd prudhvi/
+ 1512  ls
+ 1513  cd Studio/
+ 1514  ls
+ 1515  sudo git init
+ 1516  sudo git add *
+ 1517  sudo git origin
+ 1518  sudo git remote -v
+ 1519  sudo git remote -V
+ 1520  git remote -V
+ 1521  git remote -v
+ 1522  sudo git commit -m "Studio"
+ 1523  sudo git add *
+ 1524  ls
+ 1525  git status
+ 1526  git push
+ 1527  git push origin
+ 1528  ls
+ 1529  cd ..
+ 1530  sudo rm -r Studio/
+ 1531  ls
+ 1532  cd Appzillon3.6.0.S1
+ 1533  ls
+ 1534  cd ..
+ 1535  sudo rm -r Appzillon3.6.0.S1/
+ 1536  ls
+ 1537  pwd
+ 1538  cd /home/i-exceed.com/prudhvi.kumar/
+ 1539  ls
+ 1540  cd Desktop/
+ 1541  ls
+ 1542  git svn clone --stdlayout --no-metadata -A http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1543  ls
+ 1544  ls -la
+ 1545  cd newsvn/
+ 1546  ls
+ 1547  cd ..
+ 1548  cd svn/
+ 1549  ls
+ 1550  cd Studio/
+ 1551  ls
+ 1552  sudo svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}' | sort -u > /tmp/authors.txt
+ 1553  svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}' | sort -u > /tmp/authors1.txt
+ 1554  svn log --xml --quiet | grep author | sort -u | \ perl -pe 's/.*>(.*?)<.*/$1 = /' > /tmp/authors.txt
+ 1555  cd /etc/gitlab/
+ 1556  ls
+ 1557  vi gitlab.rb
+ 1558  sudo cat gitlab.rb
+ 1559  sudo cat gitlab.rb |grep LDAp
+ 1560  sudo cat gitlab.rb |grep -i LDAP
+ 1561  sudo cat gitlab.rb |grep -i 192.168.1.4
+ 1562  sudo cat gitlab.rb |grep -i -C 10 host
+ 1563  sudo cat gitlab.rb |grep -i -C 10 192.168.1.4
+ 1564  sudo cat gitlab.rb |grep -i -C 10 mail
+ 1565  w
+ 1566  cd
+ 1567  cd /opt
+ 1568  ls
+ 1569  cd gitlab/
+ 1570  ls
+ 1571  cd /var
+ 1572  ls
+ 1573  cd git/
+ 1574  ld
+ 1575  ls
+ 1576  cd /opt/gitlab/
+ 1577  ls
+ 1578  cd var/
+ 1579  ls
+ 1580  ls
+ 1581  cd Desktop/
+ 1582  ls
+ 1583  cd prudhvi/
+ 1584  ls
+ 1585  cd Appzillon3.6.0/
+ 1586  ls
+ 1587  touch Three.html
+ 1588  sudo gedit Three.html 
+ 1589  git status
+ 1590  git add *
+ 1591  git status
+ 1592  git commit -m "Added three.html"
+ 1593  git push
+ 1594  ls
+ 1595  git branch
+ 1596  git checkout master
+ 1597  ls
+ 1598  touch Three.html
+ 1599  sudo gedit Three.html 
+ 1600  git add
+ 1601  git add *
+ 1602  git status
+ 1603  git commit -m "Added three.html"
+ 1604  git push
+ 1605  git pull
+ 1606  git push
+ 1607  ls
+ 1608  git log
+ 1609  ls
+ 1610  sudo gedit Three.html 
+ 1611  git add *
+ 1612  git commit -m "Added a line"
+ 1613  git push
+ 1614  git pull
+ 1615  ls
+ 1616  rm Three.html~
+ 1617  ls
+ 1618  git push
+ 1619  ls
+ 1620  git checkout Development 
+ 1621  git pull
+ 1622  git checkout master
+ 1623  git push
+ 1624  git pull
+ 1625  git checkout Development 
+ 1626  ls
+ 1627  sudo gedit Three.html
+ 1628  git add *
+ 1629  git commit -m "added six at last"
+ 1630  git push
+ 1631  ls
+ 1632  cd ..
+ 1633  ls
+ 1634  cd /home/git/gitlab/
+ 1635  cd
+ 1636  cd /home/git/gitlab/
+ 1637  cd /opt/gitlab/
+ 1638  ls
+ 1639  cd embedded/
+ 1640  ls
+ 1641  cd service/
+ 1642  ls
+ 1643  cd gitlab-rails/
+ 1644  ls
+ 1645  cd plugins/
+ 1646  ls
+ 1647  cd examples/
+ 1648  ls
+ 1649  cat save_to_file.rb
+ 1650  ll
+ 1651  cd ..
+ 1652  ls
+ 1653  cd LICENSES/
+ 1654  ls
+ 1655  ll
+ 1656  s
+ 1657  cd ..
+ 1658  ls
+ 1659  cd init/
+ 1660  ls
+ 1661  cd ..
+ 1662  cd var/
+ 1663  ls
+ 1664  cd unicorn/
+ 1665  ls
+ 1666  sudo cd unicorn/
+ 1667  cd ..
+ 1668  cd
+ 1669  ls
+ 1670  cd Desktop/
+ 1671  ls
+ 1672  cd prudhvi/
+ 1673  ls
+ 1674  cd AA
+ 1675  cd Appzillon3.6.0/
+ 1676  ls
+ 1677  ll
+ 1678  cd .git/
+ 1679  ls
+ 1680  ll
+ 1681  cd refs/
+ 1682  ls
+ 1683  cd ..
+ 1684  cd objects/
+ 1685  ls
+ 1686  cd ..
+ 1687  cd info/
+ 1688  ls
+ 1689  vi exclude 
+ 1690  sudo gedit exclude 
+ 1691  ls
+ 1692  rm exclude~
+ 1693  ls
+ 1694  cd
+ 1695  cd Desktop/
+ 1696  ls
+ 1697  cd svn/
+ 1698  ls
+ 1699  cd Studio/
+ 1700  ls
+ 1701  sudo apt install git-svn
+ 1702  svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}' | sort -u > authors.txt
+ 1703  ls
+ 1704  cat authors.txt 
+ 1705  sudo gedit authors.txt 
+ 1706  ls
+ 1707  sudo gedit authors.txt 
+ 1708  ls
+ 1709  sudo rm -r Appzillon.sql appzillonstudio-server/
+ 1710  ls
+ 1711  sudo rm -r appzillonstudio-client/ appzillonstudio-conversion/ appzillonstudio-data/ appzillonstudio-processor/
+ 1712  ls
+ 1713  sudo rm -r appzillonstudio-commandbuild/ appzillonstudio-core/ appzillonstudio-preloader/ KeyStore/
+ 1714  ls
+ 1715  rm pom.xml 
+ 1716  ls
+ 1717  ll
+ 1718  ls -la
+ 1719  cp authors.txt /home/i-exceed.com/prudhvi.kumar/Desktop/svn/
+ 1720  ls
+ 1721  cd ..
+ 1722  ls
+ 1723  sudo rm -r Studio/
+ 1724  ls
+ 1725  pwd
+ 1726  git svn clone --stdlayout --authors-file=/home/i-exceed.com/prudhvi.kumar/Desktop/svn/authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1727  ls
+ 1728  cd Studio/
+ 1729  ls
+ 1730  ll
+ 1731  git rev-list --objects --all | sort -k 2 > allfileshas.txt;git gc && git verify-pack -v .git/objects/pack/pack-*.idx | egrep "^\w+ blob\W+[0-9]+ [0-9]+ [0-9]+$" | sort -k 3 -n -r > bigobjects.txt
+ 1732  sudo git rev-list --objects --all | sort -k 2 > allfileshas.txt;git gc && git verify-pack -v .git/objects/pack/pack-*.idx | egrep "^\w+ blob\W+[0-9]+ [0-9]+ [0-9]+$" | sort -k 3 -n -r > bigobjects.txt
+ 1733  git verify-pack -v (Get-ChildItem '.\.git\objects\pack\*.idx')
+ 1734  git verify-pack -v Get-ChildItem '.\.git\objects\pack\*.idx'
+ 1735  git verify-pack -v (Get-ChildItem) '.\.git\objects\pack\*.idx'
+ 1736  sudo git-svn rev-list --objects --all | sort -k 2 > allfileshas.txt;git gc && git verify-pack -v .git/objects/pack/pack-*.idx | egrep "^\w+ blob\W+[0-9]+ [0-9]+ [0-9]+$" | sort -k 3 -n -r > bigobjects.txt
+ 1737  cd .git/
+ 1738  ls
+ 1739  cd objects/
+ 1740  cd pack/
+ 1741  ls
+ 1742  ls -la
+ 1743  ll
+ 1744  sudo ll
+ 1745  sudo su
+ 1746  ls
+ 1747  cd ..
+ 1748  ls
+ 1749  cd..
+ 1750  cd ..
+ 1751  l
+ 1752  ll
+ 1753  for SHA in `cut -f 1 -d\  < bigobjects.txt`; do echo $(grep $SHA bigobjects.txt) $(grep $SHA allfileshas.txt) | awk '{print$1,$3,$7}' >> bigtosmall.txt; done
+ 1754  ls
+ 1755  cat bigobjects.txt 
+ 1756  ls
+ 1757  ll
+ 1758  git verify-pack -v .git/objects/pack/pack-*.idx
+ 1759  git verify-pack -v .git/objects/pack/*.idx
+ 1760  git verify-pack -v .git/objects/pack
+ 1761  git verify-pack -v .git/objects/
+ 1762  git verify-pack  .git/objects/
+ 1763  ld
+ 1764  ls
+ 1765  rm allfileshas.txt bigobjects.txt 
+ 1766  ls
+ 1767  cd ..
+ 1768  ls
+ 1769  git svn clone --stdlayout --authors-file=path/to/authors.txt <svn_repo>
+ 1770  ls
+ 1771  pwd
+ 1772  sudo git svn clone --stdlayout --authors-file=/home/i-exceed.com/prudhvi.kumar/Desktop/svn http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio 
+ 1773  ls
+ 1774  rm Studio/
+ 1775  sudo -r rm Studio/
+ 1776  sudo rm -r Studio/
+ 1777  ls
+ 1778  sudo git svn clone --stdlayout --authors-file=/home http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio 
+ 1779  ls
+ 1780  sudo rm -r Studio/
+ 1781  ls
+ 1782  git svn clone --stdlayout --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1783  ls
+ 1784  cd ..
+ 1785  sudo rm -r S
+ 1786  cd svn/
+ 1787  ls
+ 1788  cd Studio/
+ 1789  ls
+ 1790  cd ..
+ 1791  sudo rm -r Studio/
+ 1792  ls
+ 1793  svn checkout http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1794  ls
+ 1795  cd Studio/
+ 1796  ls
+ 1797  cd ..
+ 1798  mkdir svn2
+ 1799  cd svn2/
+ 1800  ls
+ 1801  cd ..
+ 1802  ls
+ 1803  cp authors.txt  svn2/
+ 1804  ls
+ 1805  cd svn2/ls
+ 1806  cd svn2
+ 1807  ls
+ 1808  git svn clone --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1809  ls
+ 1810  cd ..
+ 1811  sudo rm -r Studio/
+ 1812  ls
+ 1813  svn checkout http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1814  ll
+ 1815  cd Studio/
+ 1816  ll
+ 1817  cd .svn
+ 1818  ll
+ 1819  cd..
+ 1820  ll
+ 1821  cd ..
+ 1822  ls
+ 1823  cd ..
+ 1824  ll
+ 1825  cd ..
+ 1826  ll
+ 1827  cd newsvn/
+ 1828  ll
+ 1829  cd Studio/
+ 1830  ll
+ 1831  cd .git/
+ 1832  ll
+ 1833  cd
+ 1834  cd /opt
+ 1835  ll
+ 1836  cd g
+ 1837  cd gitlab/
+ 1838  ll
+ 1839  cd embedded/
+ 1840  cd
+ 1841  ll
+ 1842  lla
+ 1843  la
+ 1844  cd ..
+ 1845  ls
+ 1846  cd prudhvi.kumar/
+ 1847  ll
+ 1848  ls
+ 1849  echo $DISPLAY
+ 1850  echo $GITLAB
+ 1851  echo $apache2
+ 1852  echo $APACHE
+ 1853  echo $APACHE2
+ 1854  clear
+ 1855  svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}'
+ 1856  cd
+ 1857  cd Desktop/svn/
+ 1858  ls
+ 1859  svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}'
+ 1860  cd Studio/
+ 1861  svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}'
+ 1862  git svn clone --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1863  cd ..
+ 1864  git svn clone --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1865  git svn clone --no-metadata -A authors.txt http://prudhvi.kumar:password123@192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1866  git svn clone --no-metadata -A authors.txt http://192.168.1.1/svn/Appzillon/3.6.0.S1/Studio
+ 1867  git remote -v
+ 1868  git remote -V
+ 1869  svn remote
+ 1870  svn 
+ 1871  ls
+ 1872  cd Studio/
+ 1873  ls
+ 1874  cd appzillonstudio-
+ 1875  cd appzillonstudio-conversion/
+ 1876  ls
+ 1877  ll
+ 1878  cd src/
+ 1879  ls
+ 1880  cd main/
+ 1881  ls
+ 1882  cd java/
+ 1883  ls
+ 1884  cd com/
+ 1885  ll
+ 1886  cd iexceed/
+ 1887  ll
+ 1888  cd apz/
+ 1889  ll
+ 1890  cd conv21
+ 1891  ll
+ 1892  cd ..
+ 1893  ll
+ 1894  clear
+ 1895  java --version
+ 1896  which java
+ 1897  pwd
+ 1898  ls
+ 1899  cd pru
+ 1900  cd prudhvi/
+ 1901  ls
+ 1902  pwd
+ 1903  ls
+ 1904  javac example.java
+ 1905  pwdsudo apt-get install groovyclear
+ 1906  sudo apt-get install groovy
+ 1907  sudo apt-get update
+ 1908  sudo apt-get install groovy
+ 1909  sudo apt-get install ros-groovy-desktop-f
+ 1910  sudo apt-get install ros-groovy-desktop
+ 1911  clear
+ 1912  sudo add-apt-repository main
+ 1913  sudo add-apt-repository universe
+ 1914  sudo add-apt-repository restricted
+ 1915  sudo add-apt-repository multiverse
+ 1916  javac example.java
+ 1917  java example.java
+ 1918  java example
+ 1919  cat example.java
+ 1920  pwd
+ 1921  java example
+ 1922  javac example.java
+ 1923  cleaer
+ 1924  clear
+ 1925  javac example.java
+ 1926  clear
+ 1927  javac example.java
+ 1928  clear
+ 1929  pwd
+ 1930  javac example.java
+ 1931  java -version
+ 1932  get -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key
+ 1933  wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key
+ 1934  sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+ 1935  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+ 1936  la
+ 1937  em Example.class example.java~ example.java
+ 1938  rm Example.class example.java~ example.java
+ 1939  ls
+ 1940  apt-get install Jenkins
+ 1941  sudo apt-get install Jenkins
+ 1942  sudo apt-get update
+ 1943  sudo apt-get install Jenkins
+ 1944  sudo gitlab-ctl status
+ 1945  ls
+ 1946  sudo gitlab-ctl stop
+ 1947  sudo apt-get install Jenkins
+ 1948  sudo svn log -q | awk -F '|' '/^r/ {sub("^ ", "", $2); sub(" $", "", $2); print $2" = "$2" <"$2">"}'
+ 1949  ls
+ 1950  cd ..
+ 1951  ls
+ 1952  cd Studio/
+ 1953  ls
+ 1954  ll
+ 1955  ls
+ 1956  ll
+ 1957  ls
+ 1958  cd ..
+ 1959  ls
+ 1960  cs Studio/
+ 1961  cd Studio/
+ 1962  ls
+ 1963  ll
+ 1964  lll
+ 1965  ll
+ 1966  curl -u prudhvi.kumar:Vijayraja@123 http://192.168.1.6/Appzillon/3.6.0/Studio/www-data/Studio/traffic/clones
+ 1967  cd
+ 1968  cd Desktop/svn/Studio/
+ 1969  ls
+ 1970  ll
+ 1971  cd
+ 1972  cd Desktop/
+ 1973  ll
+ 1974  ls -la
+ 1975  cd prudhvi/
+ 1976  ls
+ 1977  ll
+ 1978  sudo rm -r .git
+ 1979  ls
+ 1980  ll
+ 1981  ls -la
+ 1982  cd ..
+ 1983  cd svn/
+ 1984  cd svn2/
+ 1985  ls
+ 1986  cd Studio/
+ 1987  ls
+ 1988  cd ..
+ 1989  ls
+ 1990  sudo rm -r svn2/
+ 1991  ls
+ 1992  cd Studio/
+ 1993  ls
+ 1994  cd ..
+ 1995* 
+ 1996  cd Studio/
+ 1997  ls
+ 1998  svn log --xml --quiet | grep author | sort -u | \ perl -pe 's/.*>(.*?)<.*/$1 = /'
+ 1999  sudo gitlab-ctl status
+ 2000  sudo gitlab-ctl stop
+ 2001  sudo apt-get install jenkins
+ 2002  sudo apt-get install ngnix
+ 2003  sudo apt-get install nginx
+ 2004  service nginx status
+ 2005  service nginx start
+ 2006  sudo apt-get remove nginx
+ 2007  sudo gitlab-ctl start
+ 2008  sudo gitlab-ctl reconfigure
+ 2009  sudo service apache2 status
+ 2010  sudo service apache2 stop
+ 2011  service apache2 stop
+ 2012  service apache2 status
+ 2013  sudo gitlab-ctl status
+ 2014  cd /etc/
+ 2015  ls
+ 2016  cd gitlab/
+ 2017  ls
+ 2018  sudo gedit gitlab
+ 2019  ls
+ 2020  sudo gedit gitlab.rb
+ 2021  cd..
+ 2022  cd ..
+ 2023  ls
+ 2024  cd init
+ 2025  ls
+ 2026  ll
+ 2027  cd init.d
+ 2028  cd ..
+ 2029  cd init.d
+ 2030  ls
+ 2031  ll
+ 2032  cd ..
+ 2033  sudo apt-get remove gitlab-ce
+ 2034  sudo gitlab-ctl status
+ 2035  sudo apt-get install gitlab-ce
+ 2036  cd gitlab/
+ 2037  lll
+ 2038  ll
+ 2039  sudo gedit gitlab.rb
+ 2040  cd ..
+ 2041  cd init.d/
+ 2042  ls
+ 2043  apache2 stop
+ 2044  service apache2 stop
+ 2045  sudo gitlab-ctl status
+ 2046  sudo gitlab-ctl reconfigure
+ 2047  cd
+ 2048  cd Desktop/
+ 2049  history >his

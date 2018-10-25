@@ -1,0 +1,41 @@
+#################################################################################################################################################
+								SVN Lock
+#################################################################################################################################################
+
+
+To create a lock you just create and commit a lock property on a directory. After you commit the lock property no further commits will be allowed to the locked directory tree. The only exception is for any commit that deletes the lock itself. This is necessary to allow a directory to be unlocked.
+Create a lock
+
+To set a lock on a directory tree simply create a property on a directory called lock. Then you must commit the property to make it take effect.
+
+svn propset lock TRUE trunk/project_a
+svn commit trunk/project_a
+
+The lock script does not care what value the lock property is set to. The script only checks if the lock property exists or not. The example above set the lock property value to TRUE, but the value could have been a descriptive text message giving the reason for the lock. For example,
+
+svn propset lock 'Locked for bug hunting. Ask the build engineer if you have questions.' trunk/project_a
+svn commit trunk/project_a
+
+Others can then see the value of the lock for a description of why the lock was set.
+
+$ svn propget lock trunk/project_a
+Locked for bug hunting. Ask the build engineer if you have questions.
+
+Of course, you can and should also describe the reason for the lock when you commit the lock property when you set the lock.
+Delete a lock
+
+To remove a lock simply delete the lock property and then commit:
+
+svn propdel lock trunk/project_a
+svn commit trunk/project_a
+
+Renamed to Appzillon_Releases from Appzillon_04-10-2018
+
+#################################################################################################################################################
+svn ls -R URL-OF-REPO
+
+cat list.log | awk '{print$3}'
+
+awk '{print "svn lock --force /home/i-exceed.com/prudhvi.kumar/3.5.0.S1/" $0}' /home/i-exceed.com/prudhvi.kumar/350tr.txt > /home/i-exceed.com/prudhvi.kumar/350trrr.txt
+
+while read line; do svn lock --force /home/i-exceed.com/prudhvi.kumar/3.5.0.S1/"$line"; done < 350trim.txt

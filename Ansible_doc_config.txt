@@ -1,0 +1,55 @@
+=================================================================================================================================================
+**********************************************Configure a Docker Container for Ansible**********************************************************
+=================================================================================================================================================
+
+Update
+===========================
+$ apt-get update
+
+
+Install SUDO
+===========================
+$ apt-get install sudo
+
+Install Net-Tools and essentials
+================================
+$ apt-get install net-tools curl vim
+
+Install Python
+==========================
+$ apt-get install python-apt
+
+Install SSH-Server
+==========================
+$ apt-get install openssh-server
+
+Check SSH status
+==========================
+$ service ssh status
+
+Change Aythentication Permissions
+=================================
+$ vi /etc/ssh/sshd_config
+
+# Authentication:
+LoginGraceTime 120
+PermitRootLogin yes
+# StrictModes yes
+
+Restart SSH Service
+=================================
+$ service ssh restart
+
+Check the SSH Staus
+=================================
+$ service ssh status
+
+Generate SSH-keys
+=================================
+$ ssh-keygen
+
+Change the default root password
+=================================
+$ passwd
+
+

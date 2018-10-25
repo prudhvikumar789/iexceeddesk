@@ -1,0 +1,10 @@
+Successfull Migration of SCM from existing SVN to GIT.
+Setup GITLAB for Better SCM Administration and Usage Management.
+Configured Jenkins for continious integration to speedup and increase better  product quality.
+Crerated Webhooks between GITLAB and Jenkins. [So that when changes are commited to GIT, jenkins will trigger build automatically without any manual Intereption]
+Created Declarative pipelines to exclude manual Intereptions till the deployment of Web-Application to the PRODUCTION.
+Configured SonrQube to ensure better code Quality
+Configured Nexus to maintain Binary Versions of the Builds.
+Configured Docker for better Productivity, Durability.
+Implemented Docker for many application and microprocesses. [GITLAB, Jenkins, Apache, Nginx, Nexus..]
+Implemented Chatbots for better management of the Application through text commands.[No need of VPN]

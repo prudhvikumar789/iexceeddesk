@@ -1,0 +1,66 @@
+======================================================================================================================
+pom.xml – for each project which wishes to publish to Nexus, add your repo to the pom.xml
+======================================================================================================================
+
+<distributionManagement>
+ <!-- Publish the versioned releases here -->
+ <repository>
+  <id>vineetmanohar-nexus</id>
+  <name>vineetmanohar nexus</name>
+  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/releases</url>
+ </repository>
+
+ <!-- Publish the versioned releases here -->
+ <snapshotRepository>
+  <id>vineetmanohar-nexus</id>
+  <name>vineetmanohar nexus</name>
+  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/snapshots</url>
+ </snapshotRepository>
+</distributionManagement>
+
+<!-- download artifacts from this repo -->
+<repositories>
+ <repository>
+  <id>vineetmanohar-nexus</id>
+  <name>vineetmanohar</name>
+  <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+  <releases>
+   <enabled>true</enabled>
+  </releases>
+
+  <snapshots>
+   <enabled>true</enabled>
+  </snapshots>
+ </repository>
+</repositories>
+
+<!-- download plugins from this repo -->
+<pluginRepositories>
+ <pluginRepository>
+  <id>vineetmanohar-nexus</id>
+  <name>vineetmanohar</name>
+  <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+  <releases>
+   <enabled>true</enabled>
+  </releases>
+  <snapshots>
+   <enabled>true</enabled>
+  </snapshots>
+ </pluginRepository>
+</pluginRepositories>
+
+=======================================================================================================================================
+settings.xml – If you have disabled anonymous access to Nexus, add the deployment password to your ~/.m2/repository/settings.xml file
+=======================================================================================================================================
+<settings>
+ <servers>
+  <server>
+   <!-- this id should match the id of the repo server in pom.xml -->
+   <id>vineetmanohar-nexus</id>
+   <username>deployment</username>
+   <password>password_goes_here</password>
+  </server>
+ </servers>
+</settings>
+
+
